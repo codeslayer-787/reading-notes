@@ -20,6 +20,6 @@ In the words of an unknown phylosopist:
 >Git 'er Done!
 
 Want to know more?  Visit:
-[https://codeslayer-787.github.io/reading-notes/]
+(https://codeslayer-787.github.io/reading-notes/)
 
 
