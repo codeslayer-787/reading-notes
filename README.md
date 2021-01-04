@@ -19,4 +19,7 @@ My name is Irwin.  I love my family, music, computers, and videogames.  I spend 
 In the words of an unknon phylosopist:
 >Git 'er Done!
 
+Want to know more?  Visit:
+[https://codeslayer-787.github.io/reading-notes/]
+
 
