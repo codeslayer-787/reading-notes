@@ -15,3 +15,8 @@ My name is Irwin.  I love my family, music, computers, and videogames.  I spend 
 - **Adapt and Overcome if there are any setbacks**
 
 - ***Effort is KEY!***
+
+In the words of an unknon phylosopist:
+>Git 'er Done!
+
+
