@@ -8,7 +8,8 @@ This is a collection of my readings for Codefellows.
 My name is Irwin.  I love music and computers!
 
 ### Growth Minset
-How to stay in a growth minset.  Here are my 3 examples.
+***How to stay in a growth minset.***  Here are my 3 examples.
+
 *Embrace challenges*
 
 **Adapt and Overcome if there are any setbacks**
