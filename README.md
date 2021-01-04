@@ -16,7 +16,7 @@ My name is Irwin.  I love my family, music, computers, and videogames.  I spend 
 
 - ***Effort is KEY!***
 
-In the words of an unknon phylosopist:
+In the words of an unknown phylosopist:
 >Git 'er Done!
 
 Want to know more?  Visit:
