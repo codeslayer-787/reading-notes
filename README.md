@@ -20,8 +20,8 @@ In the words of an unknown phylosopist:
 >Git 'er Done!
 
 ### Table of contents
-[Markdown reading] ()
+[Markdown reading]()
 
-Want to know more?  [Visit This:] (https://codeslayer-787.github.io/reading-notes/)
+Want to know more?  [Visit This:](https://codeslayer-787.github.io/reading-notes/)
 
 
