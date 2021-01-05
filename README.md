@@ -25,4 +25,6 @@ In the words of an unknown phylosopist:
 
 Want to know more?  [Visit This:](https://codeslayer-787.github.io/reading-notes/)
 
+![Image of Boba Fett](https://decider.com/wp-content/uploads/2020/12/the-mandalorian-14-boba-fett-headshot.jpg?quality=80&strip=all&w=1200)
+
 
