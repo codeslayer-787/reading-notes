@@ -4,7 +4,7 @@ Today I learned how to navigate some of the commands to create a file and link G
 
 I have to remember to navigate back and forth betweeen folders and not get confused on the workspace.
 
-useful commands and steps:
+Useful commands and steps:
 
 1. git clone ***Insert website here
 
@@ -21,3 +21,7 @@ useful commands and steps:
 1. git status
 
 1. git push origin main
+
+Remember that the working version on my computer does not become the Head until I commit the changes and push them.
+
+Accronym...  A C P "Add Commit Push"
