@@ -23,7 +23,7 @@ In the words of an unknown phylosopist:
 
 [Markdown reading](markdown.md/)
 
-[Learning A C P] (learning.md/)
+[Learning A C P](learning.md/)
 
 Want to know more?  [Visit This:](https://codeslayer-787.github.io/reading-notes/)
 
