@@ -4,6 +4,8 @@ Today I learned how to navigate some of the commands to create a file and link G
 
 I have to remember to navigate back and forth betweeen folders and not get confused on the workspace.
 
+## Git is a Version Control System that allows developers to work on the same project.
+
 Useful commands and steps:
 
 1. git clone ***Insert website here
