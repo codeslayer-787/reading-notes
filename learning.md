@@ -2,9 +2,9 @@
 
 Today I learned how to navigate some of the commands to create a file and link Github and my local computer.
 
-I have to remember to navigate back and forth betweeen folders and not get confused on the workspace.
+I have to remember to navigate back and forth betweeen folders and not get confused on the workspace.  I can use VS Code to update all of my files once I'm in the correct project folder.
 
-## Git is a Version Control System that allows developers to work on the same project.
+## *Git is a Version Control System that allows developers to work on the same project*
 
 Useful commands and steps:
 
