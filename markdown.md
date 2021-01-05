@@ -16,8 +16,8 @@ This is an unordered list
 * Item Three
 
 This is an ordered list:
-1. This is zero
 1. This is One
+1. This is Two
 1. This is Three
 
 Another list:
