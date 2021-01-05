@@ -21,7 +21,7 @@ In the words of an unknown phylosopist:
 
 ### Table of contents 
 
-[Markdown reading](https://codeslayer-787.github.io/markdown.md/)
+[Markdown reading](markdown.md/)
 
 Want to know more?  [Visit This:](https://codeslayer-787.github.io/reading-notes/)
 
