@@ -4,13 +4,20 @@ Today I learned how to navigate some of the commands to create a file and link G
 
 I have to remember to navigate back and forth betweeen folders and not get confused on the workspace.
 
-useful commands:
+useful commands and steps:
 
-git clone ***Insert website here
-open VS Code with code .
-Modify Document
-Save document in VS Code
-git add ***insert document name
-git commit -m "insert your comment"
-git status
-git push origin main
+1. git clone ***Insert website here
+
+1. open VS Code with code .
+
+1. Modify Document
+
+1. Save document in VS Code
+
+1. git add ***insert document name
+
+1. git commit -m "insert your comment"
+
+1. git status
+
+1. git push origin main
