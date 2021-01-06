@@ -16,4 +16,17 @@ HTML stands for Hyper Text Markup Language.  It adds data/content to a website. 
 * Tags are like containers and will communicate things about the information inside
 * Each tag will have an open and a closing
 * Some tags utilized today include:
-    * 
+  * html
+  * body
+  * h1 or h2, etc.
+  * p
+  * li
+  * ul
+  * nav
+  * main
+  * img
+* The main parts so far learned are head, header, body, and footer
+
+## Layout:
+
+Use the wireframe that I've created and add the code to make it happen!  To suscessfully create a layout I should use dividers "<div>".  
