@@ -46,10 +46,10 @@ I can also specify the opacity of my colors using RGBA.
 
 **Example:**
 
-body {
+``` body {
     background-color: black;
     ]
- }
+ } 
  
  header, footer {
      background-color: blue;
@@ -62,12 +62,13 @@ body {
      width: 800px;
      border: solid black 2px;
  }
+ ```
+> #name-of-image *<---- Target* 
 
-> #name-of-image *<---- Target*
 
  > You can target images individually using **id="name-of-image"**.  Use this inside the <img> bracket
 
- #name-of-image {
+``` #name-of-image {
      height: 300px; 
      width: 800px;
      border: solid black 2px;
@@ -98,8 +99,22 @@ li {
 p {
     width: 400px;
 }
-
+```
 
 To link:  <link rel="stylesheet" href="style.css" type"text/css">
 
+### Ways to target something in CSS:
 
+* Use a class
+
+* Use an ID
+
+* Use a tag
+
+**You can use your CSS file for multiple webpages!**
+
+The box model has margin, border, and padding.  
+
+* margin pushes things from the border out
+
+* padding goes from the border in
