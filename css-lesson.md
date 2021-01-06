@@ -41,3 +41,65 @@ Background color - Selects the background color for that box.  If I don't select
 CSS will allow me to choose from a color pallette or go from an RGB picker...
 
 I can also specify the opacity of my colors using RGBA.
+
+## Starting your CSS file
+
+**Example:**
+
+body {
+    background-color: black;
+    ]
+ }
+ 
+ header, footer {
+     background-color: blue;
+     text-align: center;
+
+ }
+
+ img {
+     height: 300px; 
+     width: 800px;
+     border: solid black 2px;
+ }
+
+> #name-of-image *<---- Target*
+
+ > You can target images individually using **id="name-of-image"**.  Use this inside the <img> bracket
+
+ #name-of-image {
+     height: 300px; 
+     width: 800px;
+     border: solid black 2px;
+
+ }
+
+ #name-of-other-image {
+     height: 300px; 
+     width: 800px;
+     border: solid black 2px;
+
+li {
+    border: solid black 1px;
+    display: inline;
+
+}
+
+.display_change {
+    /* display:inline; *
+    width: 400px;
+}
+
+.display_change > p{
+    width: 390px;
+}
+}
+
+p {
+    width: 400px;
+}
+
+
+To link:  <link rel="stylesheet" href="style.css" type"text/css">
+
+
