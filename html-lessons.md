@@ -25,8 +25,10 @@ HTML stands for Hyper Text Markup Language.  It adds data/content to a website. 
   * nav
   * main
   * img
-* The main parts so far learned are head, header, body, and footer
+* The main parts so far learned are head, header, body, and footer.  We can also add articles that act like containers.  These can be stand alone or nested.  
 
 ## Layout:
 
-Use the wireframe that I've created and add the code to make it happen!  To suscessfully create a layout I should use dividers "<div>".  
+Use the wireframe that I've created and add the code to make it happen!  To suscessfully create a layout I should use dividers "div".  
+
+***placeholder websites are very useful if I'm not sure about what image to use at the moment.***
