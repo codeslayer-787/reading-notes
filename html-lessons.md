@@ -3,6 +3,7 @@
 HTML stands for Hyper Text Markup Language.  It adds data/content to a website.  While I can work using the same console and tools such as VS Code for both Git and HTML, these are two different things. HTML has lots of brackets to organize and categorize the data.  
 
 **Always use index.html to create your main page!**
+
 **Do not use Github to create anything other than repositories!**
 
 ## Before Starting to Create an HTML Website:
