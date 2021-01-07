@@ -4,22 +4,29 @@ Javascript is pretty much like the other editors we've been using in the sense t
 
 ### **The following is an example of Javascript inside a website (Constructive & Co.)**
 
-```var today = new Date();
-var hourNow = today.getHours()
-var greeting;
+`var today = new Date();`
 
-if (hourNow > 18) {
-greeting = 'Good evening!';
-} else if (hourNow > 12) {
-    greeting = 'Good afternoon!';
+`var hourNow = today.getHours()`
 
-} else if (hourNow > 0) {
-    greeting = 'Good morning!';
-} else {
-    greeting = 'Welcome!';
-}
-```
-The following is an example of a textbox greeter.
+`var greeting;`
+
+`if (hourNow > 18) {`
+
+`    greeting = 'Good evening!';`
+
+`} else if (hourNow > 12) {`
+
+`greeting = 'Good afternoon!';`
+
+`} else if (hourNow > 0) {`
+`    greeting = 'Good morning!';`
+
+`} else {`
+`    greeting = 'Welcome!';`
+
+`}`
+
+**The following is an example of a textbox greeter.**
 
 ```
 document.write('<h3>' + greeting + '</h3>');
