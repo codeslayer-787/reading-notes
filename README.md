@@ -13,7 +13,7 @@ My previous coding is from over 15 years ago when I was going for a computer-sci
 
 COVID-19 gave me the perfect escape plan from the oil fields!  Now that I'm out of the business, I can plan my life the way I want to instead of feeling like things were "pre-ordained" for me.  That is the reason I'm back learning how to do what I really love!
 
-### Growth Minset
+### **Growth Minset**
 ***How to stay in a growth minset.***  ~~Here are my 3 examples.~~
 
 - *Embrace challenges*
