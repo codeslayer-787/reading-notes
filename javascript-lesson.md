@@ -33,7 +33,7 @@ Javascript is pretty much like the other editors we've been using in the sense t
 ```
 document.write('<h3>' + greeting + '</h3>');
 
-let userName = prompt ('Please Enter Your Name')
+let userName = prompt ('Please Enter Your Name');
 
 document.write(userName)
 
@@ -67,4 +67,18 @@ if (userName == 'Irwin'){
 * Filters data to be displayed instead of showing irrelevant stuff to the user.
 
 To write a script, you need to first state your goal and then list the tasks that need to be completed in order to achieve it.  **Always start with the big picture of what I want break it down to smaller steps**
+
+In javascript, you can invoke functions:
+
+I.e. 
+
+`function askUserName(){`
+
+`let userName = prompt ('Please Enter Your Name');`
+
+`document.write(userName)`
+
+`return userName;`
+
+```askUserName();```  This is the invoke function.
 
