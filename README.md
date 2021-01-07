@@ -27,7 +27,11 @@ In the words of an unknown phylosopist:
 
 [HTML Lessons](html-lessons.md/)
 
-[Coder's Computer](coders-computer.md)
+[CSS Lessons](css-lesson.md/)
+
+[Coder's Computer](coders-computer.md/)
+
+[Javascript Lessons](javascript-lessons.md/)
 
 Want to know more?  [Visit This:](https://codeslayer-787.github.io/reading-notes/)
 
