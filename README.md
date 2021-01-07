@@ -31,7 +31,7 @@ In the words of an unknown phylosopist:
 
 [Coder's Computer](coders-computer.md/)
 
-[Javascript Lessons](javascript-lessons.md/)
+[Javascript Lesson](javascript-lesson.md/)
 
 Want to know more?  [Visit This:](https://codeslayer-787.github.io/reading-notes/)
 
