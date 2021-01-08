@@ -39,7 +39,9 @@ In the words of an unknown phylosopist:
 
 [Javascript Lesson](javascript-lesson.md/)
 
-[How do Computers Work?](computers.md)
+[How do Computers Work?](computers.md/)
+
+[Operators and Loops](operators-loops.md/)
 
 
 Want to know more?  [Visit This:](https://codeslayer-787.github.io/reading-notes/)
