@@ -27,9 +27,9 @@ In the words of an unknown phylosopist:
 
 ### Table of contents 
 
-![Markdown reading](markdown.md/)
+[Markdown reading](markdown.md/)
 
-![Learning A C P](learning.md/)
+[Learning A C P](learning.md/)
 
 [HTML Lessons](html-lessons.md/)
 
@@ -43,7 +43,7 @@ In the words of an unknown phylosopist:
 
 [Operators and Loops](operators-loops.md/)
 
-![Code 201 Reading Notes](/201/code-201.md/)
+[Code 201 Reading Notes](/201/code-201.md/)
 
 
 Want to know more?  [Visit This:](https://codeslayer-787.github.io/reading-notes/)
