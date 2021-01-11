@@ -43,7 +43,7 @@ In the words of an unknown phylosopist:
 
 [Operators and Loops](operators-loops.md/)
 
-[Code 201 Reading Notes](code-201.md/)
+[Code 201 Reading Notes](/201/code-201.md/)
 
 
 Want to know more?  [Visit This:](https://codeslayer-787.github.io/reading-notes/)
