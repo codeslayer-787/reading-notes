@@ -63,5 +63,5 @@ Disadvantages:
 
 **Make sure to write comments to explain what your code does.**
 
-
+## JavaScript Lessons:
 

@@ -27,3 +27,18 @@ Useful commands and steps:
 Remember that the working version on my computer does not become the Head until I commit the changes and push them.
 
 Accronym...  A C P "Add Commit Push"
+
+`mkdir folder1` <---- Creates a folder then I can cd into it and create a file or...
+`touch folder1/file1.html` Creates the file in the specified folder as long as it exists.
+
+We can create repositories using git the following way:
+
+- `mkdir target-directory`
+- Initialize that folder
+- `git init`
+- Add Readme and other desired files
+- Create a Repo on Github
+- Copy clone link
+- Add that Repo as remote
+- `git remote add origin <url.git>`
+- Now we can push our code to the github repo we created.
