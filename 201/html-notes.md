@@ -65,3 +65,80 @@ Disadvantages:
 
 ## JavaScript Lessons:
 
+Data Types
+
+- There are 5 data types in JS.
+  - **Strings**
+    - `var string = 'words'`
+    - `var otherstring = 'another one'`
+  - **Numbers**
+    - `var number = 10`
+    - `var decimal = 10.2`
+    - `var decimal = 1/2`
+
+  - **Booleans**
+    - True
+    - False
+    - `var isBoolean = true`
+
+  - **null**
+  - **undefined**
+
+### Conditional Statements
+
+- if / else / if else
+- flow control
+  - What lines of code are going to be run in our js engine
+
+  ``` javascript
+
+  if (true) {
+    console.log('This statement will run)
+  } else {
+    console.log ('This statment will not run')
+  }
+  ```
+```
+// == this is a way to evaluate two sides of a statement
+
+var aBigNumber= 1000
+
+if (0 == 1) {
+  console.log('this will never be true');
+} else {
+  console.log('this should run just fine');
+}
+
+var UsersNumber = prompt('Guess a number');
+if (UsersNumber == 1000) {
+  console.log('You guessed correctly');
+} else {
+  console.log('Not quite');
+}
+// Guessing
+if (UsersNumber != 1000) {
+  console.log('not quite');
+}
+```
+`typeof(UsersNumber)` *// returns the datatype of whatever is in the parenthesis.*
+
+Switch statements
+Lets you define a large amount of conditions to evaluate.
+
+```
+var Num = 12;
+
+switch (Num) {
+  // these always check for exact matches
+  case 10:
+    console.log('the number is 10');
+    // if we don't want cases below the catches case to execute, we need a break
+    break;
+  case 11:
+    console.log('the number is 11');
+  case 12:
+    console.log('the number is 12');
+  default:
+    console.log('number didn't equal any of the above');
+}
+```
