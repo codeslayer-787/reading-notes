@@ -45,6 +45,8 @@ In the words of an unknown phylosopist:
 
 [Code 201 Reading Notes](/201/code-201.md/)
 
+[HTML, JS, and CSS Basics](/201/html-notes.md/)
+
 
 Want to know more?  [Visit This:](https://codeslayer-787.github.io/reading-notes/)
 
