@@ -142,3 +142,12 @@ switch (Num) {
     console.log('number didn't equal any of the above');
 }
 ```
+
+- Arrays
+  - Let you store more than one piece of data in the same spot.
+  `var arrayOfNumbers = [2,4,6,8,9,10]`
+  - We reference the discreet items in the array with an index number
+
+  `arrayOfNumbers [0] => 2`
+  `arrayOfNumbers[5] => 10` //How many spaces to move
+  `arrayOfNumbers.lenght` <--- To check the lenght of the array
