@@ -135,3 +135,6 @@ console.log('thank you');
     console.log('condition might be truthy')
   }
   while condition.false
+  ```
+
+  Pushed items move from the right to the left.
