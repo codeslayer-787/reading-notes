@@ -50,3 +50,88 @@ colors = ['white', 'black', 'custom'];
 var el = document.getElementById('colors');
 el.textContent = colors[0];
 ```
+
+You can use `.toUpperCase();` when declaring your variable so you don't have to write it in multiple places.
+## Formal JS Logic
+
+* What goes inside of the parantheses of a conditional statement
+* Truthy vs Falsey
+  * Booleans, true or false
+  * Js is weird and has this idea of things that evaluate to true or false without being exactly True or False
+    * Truthy
+      * true
+      * numbers 1 or more or negative numbers
+      * string that are not empty
+      * "0" 
+    * Falsey
+      * 0
+      * ' '
+      * null
+      * undefined
+      * NaN
+      * False
+  * Logical operator
+    * ! not something <---This flips the value I'm looking at
+    && both side of a statement need to be true
+    * || only one side of a statement needs to be true 
+
+## Loops
+
+- A way to get our code to run more than once without having to write more than once.
+- There are 3 types of loops
+  - **while loop:**  While a condition is truthy, run the following code over and over.
+  ```javascript
+  var condition = -2;
+  while (condition) {
+    // this will run as long as condition is true.. Ex. -2, -1, then 0 which is Falsey
+    console.log('truthy' + condition);
+    condition++;
+  }
+  // we'll only get to code below the loop, if the condition above becomes falsey at some point. 
+    console.log('loop is done');
+    ```
+```javascript
+
+// This one will run a loop until you enter a name or string
+var answer = prompt ('What is your name?');
+
+while (!answer) {
+  console.log('You have to give me a name');
+  answer = prompt('you have not given me a name, please enter your name');
+}
+
+console.log('thank you');
+```
+
+  - **A for loop:**  is a control flow statement for specifying iteration, which allows code to be executed repeatedly.
+
+  ```javascript
+  // for loop syntax: initializer / condition for the loop / incrementer, the thing that occur after every loop
+  for (var i = 0; i < 10; i++) {
+    console.log('loop is done');
+  }
+  console.log('loop is done')
+```
+
+``` javascript
+
+  // arrayOfQuestions [someNumber] => some number represents the position of items within the array.
+  var arrayOfQuestions = ['What is your name?, 'what is your favorite color?'];
+  var arrayOfAnswers = [];
+  // this loop is running against the number of times the array of Questions.
+  for (var i = 0; i < arrayOfQuestions.length; i++) {
+  arrayOfAnswers.push(prompt(arrayOfQuestions[i]));
+  }
+
+  console.log('loop is done', arrayOfAnswers);
+```
+
+  - **do while loop:** Creates a loop that executes a block of code once, before checking if the condition is true, then it will repeat the loop as long as the condition is true. The do/while statement is used when you want to run a loop at least one time, no matter what.
+
+  ```javascript
+  condition = false
+  // this will run once regardless of the truthiness of the condition
+  do {
+    console.log('condition might be truthy')
+  }
+  while condition.false

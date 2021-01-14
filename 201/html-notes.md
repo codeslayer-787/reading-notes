@@ -151,3 +151,20 @@ switch (Num) {
   `arrayOfNumbers [0] => 2`
   `arrayOfNumbers[5] => 10` //How many spaces to move
   `arrayOfNumbers.lenght` <--- To check the lenght of the array
+
+  ## HTML / CSS Box Model
+
+  * How to position elements among other elements.
+  * Each element is a box.  It has a height and a width wich equates to a number.
+  * Each different element type has a different default property for these numbers.
+  * The CSS properties that control a box element
+    * Margin -  Space between the element content, and any adjacent element.  
+    * Padding -  The space between the content itself and it's surrounding box.
+    * Border - A line around the content.
+    * Height & Width - How Much space the actual content takes up.
+
+`<div>` Is more of a horizontal division rather than vertical.  It wants to take as much space to the sides as possible.
+
+*inline* elements are not allowed a width and a height...  They will display funky if you do!
+
+`clear: left;` or `clear: right;` to ignore float elements around them...
