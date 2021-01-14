@@ -168,3 +168,63 @@ switch (Num) {
 *inline* elements are not allowed a width and a height...  They will display funky if you do!
 
 `clear: left;` or `clear: right;` to ignore float elements around them...
+
+## Links
+
+You can create links using the `<a>` element.  I can specify which page I want to link using the href attribute.  
+
+`<a href="http://www.me.com">About Me</a>`  <--- This is an example on how they should look like.
+
+The text after the link is what the user will be able to see.  It's a good idea to make it describe what they will see once they click.
+
+I can link other sites like in the description above, or I can link to other pages within my website.  Websites use more or less the same file system we've been using right now.  
+
+```html
+<a href="index.html">Home</a>
+<a href="about-us.html">About</a>
+```
+Again, the directories work basically the same way they do on Windows.  Use forward slashes to go to child directory, use periods to go to the parent or grandparent directory.
+
+For emails use something like:
+
+`<a href="mailto:irwin_ayala@yahoo.com">Email Me</a>`
+
+To open links in a new window:
+
+`<a href="http://www.gas.com"target="_blank">Give it Gas!</a>`
+
+## Layout
+
+CSS has the following positioning schemes:
+
+* Normal flow:  Every block-element appears on a new line.  One below the other.  This is the default.
+* Relative positioning: This moves an element from the position it would be in normal flow, shifting it to the top, right, bottom, or left. This one doesn't affect the position of other elements.
+* Absolute positioning: Positions the element in relation to its containing element.  It is taken out of normal flow, but doesn't affect the flow of other elements.
+* Fixed positioning:  This is a form of absolute positioning that positions an element.  Elements do not move when the window is scrolled up or down.  
+* Floating elements:  Floating elements allows you to take an element out of normal flow and position it left or right of a containing box.  The floated element becomes a block level element around which other content can flow.
+
+There are several considerations when applying any of these positioning schemes such as screen sizes and resolutions.
+
+## Functions:
+
+Functions let you group a series of statements together to perform a specific task.  You can reuse functions if you need to repeat it.
+
+Remember that you need to declare a function then call it below your code.
+
+To call it simply use the function name and follow it by a parenthesis:
+
+`sayHello();`
+
+Where things start getting a bit more complicated is when you need to declare functions that need information.  At this point you need to add parameters inside the parentheses.  When calling the function, I need to specify the values to be used inside the parentheses.
+
+```javascript
+function getArea(width, height){
+  return width * height;
+}
+```
+
+Calling it:
+
+```javascript
+getArea(3, 5);
+```
