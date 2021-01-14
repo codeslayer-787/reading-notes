@@ -47,6 +47,8 @@ In the words of an unknown phylosopist:
 
 [HTML, JS, and CSS Basics](/201/html-notes.md/)
 
+[JavaScript lessons](/201/js-review.md/)
+
 
 Want to know more?  [Visit This:](https://codeslayer-787.github.io/reading-notes/)
 
