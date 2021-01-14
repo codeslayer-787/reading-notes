@@ -138,3 +138,38 @@ console.log('thank you');
   ```
 
   Pushed items move from the right to the left.
+
+  ## JS Functions Part 2
+
+  A variable that include (not just the data type) but blocks of javascript
+    * Declare a function and devine function's operations
+    * Arguments: The data you provide a function when you call / execute the function
+    * Parameters: The data that the function defines, which comes from it's execution
+      * Think of this as a variable that only that specific function can use.
+    * Scope: The logic within the curly`{}` braces of a function
+      * functions are able to access global scope that are defined outside the curlies
+      * functions only have access 
+
+  ```javascript
+  //var array = [1, 2, 3];  <---An Array
+  //array.push(4)
+
+  //**with functions we can store these operations to run when we chose**
+
+  function pushArray (){ // <---Global scope (ouside of the curlies)
+    var array = [1, 2, 3];
+    array.push(4);
+  }
+  pushArray(); //calling or executing this function
+  ```
+## For Loop steps explanation!
+
+```javascript
+let numberOfGuesses = 6      //Bucket example
+for (let i = 0; i < numberOfGuesses; i++) {
+  ```
+1. Assign i to 0
+2. Checks the condition: i < numberOfGuesses
+3. Runs code in the `for` loop
+4. Once the code runs it goes back to the i++ to check if it needs to run again
+

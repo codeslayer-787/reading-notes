@@ -228,3 +228,11 @@ Calling it:
 ```javascript
 getArea(3, 5);
 ```
+
+## CSS Layout
+
+#### The CSS Position properties:
+
+  - Dictate the flow of a number of elements
+    - Absolute: positions the element outside of the normal flow of elements around it and anchors the element to it's parent element
+    - Fixed: I want the element to stay put regardless if I scroll up or down
