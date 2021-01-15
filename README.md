@@ -49,6 +49,8 @@ In the words of an unknown phylosopist:
 
 [JavaScript lessons](/201/js-review.md/)
 
+[On Pair Programming](pair-programming.md/)
+
 
 Want to know more?  [Visit This:](https://codeslayer-787.github.io/reading-notes/)
 

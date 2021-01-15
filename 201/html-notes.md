@@ -236,3 +236,6 @@ getArea(3, 5);
   - Dictate the flow of a number of elements
     - Absolute: positions the element outside of the normal flow of elements around it and anchors the element to it's parent element
     - Fixed: I want the element to stay put regardless if I scroll up or down
+    - Relative: Keeps the element within the normal flow, but allows positioning with left and right.  Allows the element to be an anchor point for absolute positioned elements.
+    - Static:  They follow a consistent flow that is preserved with the elements around it, but will not be usable as absolute element anchor points.
+    - Sticky: It's a combination of fixed and absolute.  It anchors to its parent and becomes a fixed item more or less.
