@@ -269,3 +269,5 @@ These are the steps:
 - If we chose to move catch `main` up with a pull request
 - If we want to work on antoher feature, we can run `git-checkout -b feature-2`
 - Once we are completely finished, we want to make our Pull Request
+
+Lean startup
