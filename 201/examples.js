@@ -71,3 +71,31 @@ askQuestion('How old are you?');
 askQuestion('What is your fave color?');
 
 console.log(arrayOfAnswers);
+
+// * Create a function that uses 2 parameters, the first parameter is an array of numbers, and the second is a single integer number.
+// * The function returns that same array, but adds that second parameter to each number within the array.
+
+var arrayOfNumbers = [1,10,15,20];
+var integer = 5;
+
+function sumThisUp(){
+  for (let i= 0; i < arrayOfNumbers.length; i++){
+    console.log(arrayOfNumbers[i] + integer);
+  }
+}
+sumThisUp();
+
+// About the same thing as above, but the parameters are declared within the function
+
+var arrayOfNumbers = [1,10,15,20];
+var integer = 5;
+
+function sumThisUp(x, y){
+  for (var i=0; i < x.length; i++){
+    console.log(x[i] + y);
+  }
+}
+sumThisUp([1,10,15,20],5);
+/////// OR ///////
+sumThisUp(arrayOfNumbers, integer); //<--Using the global variables
+

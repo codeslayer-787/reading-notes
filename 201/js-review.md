@@ -173,3 +173,6 @@ for (let i = 0; i < numberOfGuesses; i++) {
 3. Runs code in the `for` loop
 4. Once the code runs it goes back to the i++ to check if it needs to run again
 
+**Paramenters are variables that we define within the parentheses of the functions signature or declare.**
+
+The `typeof` parameter returns things in the type of data that I chose.

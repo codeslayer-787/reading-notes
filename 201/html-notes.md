@@ -239,3 +239,33 @@ getArea(3, 5);
     - Relative: Keeps the element within the normal flow, but allows positioning with left and right.  Allows the element to be an anchor point for absolute positioned elements.
     - Static:  They follow a consistent flow that is preserved with the elements around it, but will not be usable as absolute element anchor points.
     - Sticky: It's a combination of fixed and absolute.  It anchors to its parent and becomes a fixed item more or less.
+
+#### The Span and Div elements are very similar.  
+
+`div ~ span` Make changes to every span element preceeded by a div.  If there's no div before, then no changes will be done to the span.
+
+`div + span` Make changes to both div and span elements.
+
+It is better to reference a cheat sheet for this... 
+
+`input` creates a box.   `input type=` defines the input type wether textbox and among others.
+
+`div hover` this puts a "shadow" whenever my mouse hovers over it.
+
+### Images
+
+I can add the images and have them size to the desired size maintaining their width by just setting the `height` property in CSS
+
+### Git Branching
+
+Github will keep track of the `head` and branches.  A code file can have multiple itterations by different developers.  Those will become the `head` once the owner accepts the changes.
+
+These are the steps:
+
+- All my files should already be on the `main` branch.
+- `git checkout -b feature-1` this creates and switches out terminal to the new branch `feature-1` (This takes code from our local, from the current branch we are on)
+- We work on the code
+- After we are done, we push to the feature branch `git push feature-1`
+- If we chose to move catch `main` up with a pull request
+- If we want to work on antoher feature, we can run `git-checkout -b feature-2`
+- Once we are completely finished, we want to make our Pull Request
