@@ -270,4 +270,40 @@ These are the steps:
 - If we want to work on antoher feature, we can run `git-checkout -b feature-2`
 - Once we are completely finished, we want to make our Pull Request
 
-Lean startup
+## Images
+
+I've learned that I can get images for my website via url or from my own computer (must upload them to work).  The `<img>` element is the way to do it using html.  The final bracket will look something like `<img src="images/whatever.jpg">`  It will look something similarly if I use an image from another website.  I can resize the image in the html file or even better modify it in the CSS file using an id tag.  
+
+*Note: If you resize only the heght property, the image will automatically relize the width to the original aspect ratio.*
+
+An image can be a block element by itself or within another block.  An inline image element will display it as it was another character in my text...  
+
+### Three rules for creating images:
+
+- Save images in the right format
+- Save images at the right size
+- Measure images in pixels
+
+The best way to modify or crop the images themselves, is to edit them in Gimp and then save them once I'm happy.
+
+## Color
+
+Color can bring my page to life.  Through CSS, I can modify the colors for the background, foreground, text, and individual elements.  The code will look something like:
+
+```css
+body {
+  background-color: black;
+}
+```
+I can chose normal colors or venture into the rgb realm until I find the right color for whatever I'm trying to do.  
+
+Another property in CSS is HSL (Hue, Saturation, Lightness.)
+
+## Text
+
+The properties that allow yoiu to control the appearance of text can be split into two groups:
+
+  - Those that directly affect the font and its appearance.
+  - Those that would hav ethe same effect on text no matter what font you were using
+
+We can select the font-mamily and size of type.  CSS has multiple types that you can scroll down and select from the menu.  *Note: You have to make sure your text will be compatible with a good amount of browsers.*  Not every browser will be compatible with a font type.  There are quite a few that are compatible with most, so you should always look for those rather than venturing into newer types.  Not every font is clearly legible inside your browser, so you have to test run and think of the text as if you were some farmer in Wyoming reading the page.
