@@ -184,4 +184,39 @@ The `typeof` parameter returns things in the type of data that I chose.
 * Do `git checkout main`  <--- Takes you you to the main directory
 * `git pull origin main`
 * `git checkout -b newbranchname`
-* 
+* **Rinse and Repeat**
+
+## Understanding Problem Domain:
+
+The author in this article makes a very important point that stuck with me since course 102...  Have your end product in mind when writing your code!  What am I trying to accomplish?  Asking myself this question is much better than just writing code blindly without a real idea of what the company is really trying to accomplish.  The author pointed out at his experience at HP.  They gave him a problem to solve and exactly what they wanted as their end-product instead of just telling him to make a prompt that did x, y, and z.  Digging for information may be one of the most important aspects of my job as a software developer. **Always keep the "end" in mind!**
+
+## Object Literals:
+
+What is an object?  Objects group together a set of variables and functions to create a model of something you would recognize from the real world.  In an object, variables and functions take on new names.  
+
+See the following example for a hotel application:
+
+```javascript
+var hotel = {
+  name: 'Quay',
+  rooms: 40,
+  booked: 20,
+  gym: true,
+  roomTypes: ['twin', 'double', 'suite'],
+  checkAvailability: function() {
+    returns this.rooms - this.booked;
+  }
+};
+```
+The object above creates an object...  a hotel named Quay.  It has 40 rooms and there are 20 booked.  It has a gym and three different room types.  The function calls for room availability by substracting total of rooms minus rooms booked.
+
+I can create an object literal notation by adding a period `.` to the object name for the aspect I want to work on.  
+
+```javascript
+var hotelName = hotel.name;
+var roomsFree = hotel.checkAvailability();
+```
+
+The code above deals with the hotel name and creates a variable `roomsFree` that calls the function `checkAvailability();`  
+
+##
