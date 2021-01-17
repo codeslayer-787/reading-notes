@@ -99,3 +99,19 @@ sumThisUp([1,10,15,20],5);
 /////// OR ///////
 sumThisUp(arrayOfNumbers, integer); //<--Using the global variables
 
+function testSum(x, y){
+  for (var i=0; i < x.length; i++){
+    console.log(x[i] + y);
+  }
+}
+testSum(4, 7);
+
+var num ();
+function testSum() { //eslint-disable-line
+  if (sum(4,7)[0] === 11 && sum(4,7)[1] === 'The sum of 4 and 7 is 11.') {
+    console.log('%c TEST FOR sum() PASSES', 'color: green');
+  } else {
+    console.log('%c TEST FOR sum() FAILS', 'color: red');
+  }
+}
+
