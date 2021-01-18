@@ -219,4 +219,27 @@ var roomsFree = hotel.checkAvailability();
 
 The code above deals with the hotel name and creates a variable `roomsFree` that calls the function `checkAvailability();`  
 
-##
+## The Document Object Model (DOM)
+
+The Document Object Model specifies how browsers should create a model of an HTML page and how Javascript can access and update the contents of a web page while it is in the browser window.  The DOM is not part of JS or HTML.  It is a separate set of rules.
+  * Makes a model of the HTML page
+  * Acess and changes the HTML page
+
+Each node is an object with methods and properties.  Scripts access and update the DOM tree (not the source HTML file).  Any changes made to the DOM tree are reflected in the browser.
+
+### The DOM tree has the following types of nodes:
+  * Document node
+  * Element nodes
+  * Attribute nodes
+  * Text nodes
+
+To access and update the DOM tree:
+  * Locate the node that represents the element you want to work with
+    - Select individual element nodes by using `getElementById()` or others (see pg. 188)
+    - Select multiple elements (nodelists) Ex. `getElementsByClassName()`
+    - Traversing Between Element Nodes Ex. `parentNode`, `firstChild`, etc.
+  * Use its text content, child elements, and attributes
+    - Access/Update text nodes `nodeValue`
+    - Work with HTML content.  Ex. `innerHTML`, `textContent`, etc.
+    - Access or update attribute values `className/id` or `hasAttribute()`
+
