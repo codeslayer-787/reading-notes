@@ -243,3 +243,47 @@ To access and update the DOM tree:
     - Work with HTML content.  Ex. `innerHTML`, `textContent`, etc.
     - Access or update attribute values `className/id` or `hasAttribute()`
 
+**`${}` Allows me to add variables into my code without having to use the `+` sign to concatenate mny code.**
+
+### JS Objects (Review)
+
+- Fundamental data structure (something that holds different types of data ie: string, numbers, booleans, nulls, undefined)
+- Objects allow us to place things in a specific place 
+  `var array = [1, `1`, 2];` // how arrays work
+  - when we reference items within array [0];
+  `var object = {key: value, }`
+  - var person = { name: 'Irwin' }
+  - no are reference looks like this: object.key => value
+    - Handy when we need to use a variable to represent a property name.
+  - Everytime we see something like array.length;
+- If we want to place a function on an object, we call this a method
+- `this` => we call this contextual 'this'.  We can use `this` to reference the object that's being defined.
+
+```javascript
+
+var person = {
+  name: 'Irwin',
+  age: 36,
+  speak: function(){
+    console.log('Hey there');
+  },
+  greet: function(){
+    console.log('My name is ' + this.name);
+  },
+}
+person.speak();
+// prints to the console => Hey There
+person.greet() // +> 'My name is Irwin'
+```
+### Document Object Model (Review)
+
+- It's an object that lives within the browser
+- Represents the HTML document that we are currently looking at.
+- It has it's own properties and methods
+- We will use this to select elements that are on the page, create elements that are not on the page yet, append those new elements to the document object
+  - Useful methods:
+    - `getElementById()` <= selects an element
+    - `createElement()` <= creates a new HTML element that is not displayed yet
+    - `appendChild()` <= places new elements on the page
+    - `setAttributes()` <= to modify elements with styling, classnames, or ids
+    - `textContent` <= set the content within openning and closing tags

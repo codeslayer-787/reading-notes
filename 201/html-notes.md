@@ -10,6 +10,13 @@ Using objects & methods:
 
 Member Operator   |    Parameters
 
+* Keep formatting of html file
+* **For live server to work, must have index.html**
+* Use accents "backticks" to add code blocks.
+```"This is my code block" ```
+
+
+
 **Javascript runs where it is found in the html**
 
 When the browser comes across a `<script>` element, it stops to load the script and then checks to see if it needs to do anything.  
