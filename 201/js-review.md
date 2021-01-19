@@ -287,3 +287,56 @@ person.greet() // +> 'My name is Irwin'
     - `appendChild()` <= places new elements on the page
     - `setAttributes()` <= to modify elements with styling, classnames, or ids
     - `textContent` <= set the content within openning and closing tags
+
+## Modeling Problem Domain
+
+Domain modeling is the process of creating a conceptual model for a specific problem.  And a domain model that's articulated well can verify and validate your understanding of that problem.
+
+- Understanding the scope of the problem, and providing a working model of how it can be solved
+
+1. When modeling a single entity that'll have many instances, build self-contained objects with the same attributes and behaviors.
+1. Model its attributes with a constructor function that defines and initializes properties.
+1. Model its behaviors with small methods that focus on doing one job well.
+1. Create instances using the new keyword followed by a call to a constructor function.
+1. Store the newly created object in a variable so you can access its properties and methods from outside.
+1. Use the this variable within methods so you can access the object's properties and methods from inside.
+
+## Tables
+
+A table represents information in a grid format.  Examples of tables include financial reports, TV schedules, and sports results.
+
+Tables have quite a basic structure consisting of:
+* `<table>` - The table element
+* `<tr>` - Indicates the start of each row
+* `<td>` - Stands for Table Data.  Each cell of a table is represented by this `<td>` element
+* `<th>` - It's used just like the `<td>` element, but its purpose is to represent the heading for either a column or a row.
+
+Sometimes we'll need to strech the content of one column.  To do this, you can use either the `<td>` or `<th>` with the `colspan="number of spaces"`. 
+
+The same procedure is done to spanning rows...  I.e. `<td rowspan="2">Movie</td>`
+
+Long Tables:
+
+Ther eare three elements that help distinguish between the main content of the table and the first and last rows.
+
+`<thread>` The headings of the table should sit inside the `<threat>` element.
+`<tbody>` The body should sit inside the `<tbody>` elemnt.
+`<tfoot>` The footer belongs here.
+
+## Functions and Objects (cont.)
+
+Once you have created an object, you can add new properties to it.  You do this using the dot notation that we've used adding properties to objects.  For example: `hotel.gym = true` sets a property for the hotel object to true.  
+
+There are a few ways to create objects.  The literal notation and the constructor notation.  You can also create an object with properties & methods using either literal notation or object contruction.
+
+**THIS**
+
+The keyword `this` is commonly used inside functions and objects.  Where the function is declared alters what `this` means.  When a function is created at the top level of a script, then it is in the *global scope* or *global context*.  In JS, data is represented using name/value pairs.  To organize your data, you can use an array or object to group a set of related values.  In arrays and objects, the name is also known as the key.  
+
+Browsers come with a set of built-in objects that represent things like the browser window and the current web pare shown in that window.  These built-in objects act like a toolkit for creating interactive web pages.
+
+There are three gropus of built-in objects:
+
+  - Browser Object Model - creates a model of the browser tab or window.  
+  - Document Object Model - The DOM creates a model of the current web page.
+  - Global JavaScript Objects - The global objects do not form a single model.  They are a group of individual objects that relate to different parts of the JS language.
