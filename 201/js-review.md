@@ -340,3 +340,61 @@ There are three gropus of built-in objects:
   - Browser Object Model - creates a model of the browser tab or window.  
   - Document Object Model - The DOM creates a model of the current web page.
   - Global JavaScript Objects - The global objects do not form a single model.  They are a group of individual objects that relate to different parts of the JS language.
+
+  ## Object Oriented Programming
+
+  - We are using objects as a design pattern
+  - We use objects as the starting point for programming operations
+    - All the functions and operations you could use, belong to an object.
+    - Before we can all out to properties and methods, we have to create an object. 
+  - It all begins with defining functions that produce objects.  
+  - Constructors:  Functions that create objects...  Example:
+
+  ```javascript
+
+  //Using literal notation
+  function Store() {
+    name = 'seattle';
+    hours = ['6am', '7am', '8am'];
+    mincust = 5;
+    //this.speak = function() {
+      //console.log('hey');
+    //}
+    };
+
+      // Creating an object using the Store constructor funciton
+  function Store() {
+    this.name = name;
+    this.hours = hours;
+    this.mincust = minCust;
+
+    //To Call it
+    var seattle = new Store('Seattle', ['6am', '7am', '8am'], 5);
+  }
+  // This call will populate the values and arrays within it
+```
+
+## HTML Tables
+
+### Creating rows and columnns
+
+- This requires a very specific composition/hierarchy of elements.
+  - There's not really a column element itself
+  - Each row is made of data cells
+
+```html
+<table>
+  <tbody id="table-body">
+    <tr>
+      <td>One</td>
+      <td>Two</td>
+    </tr>
+    <tr>
+      <td>Three</td>
+      <td>Four</td>
+    </tbody>
+  </table>
+  <script src="app.js"></script>
+```
+
+

@@ -105,3 +105,61 @@ function testSum(x, y){
   }
 }
 testSum(4, 7);
+
+
+// This one goes with the table creation in HTML
+
+var tablebody = document.getElementById('table-body');
+
+var rowOne = document.createElement('tr');
+var cellOne = document.createElement('td');
+var cellTwo = document.createElement('td');
+
+cellOne.textContent = 'one';
+cellTwo.textContent = 'two';
+
+rowOne.apppendChild(cellOne);
+rowOne.appendChild(cellTwo);
+tablebody.appendChild(rowOne);
+
+// From scratch:
+// For every number of Properties
+// Create a td
+// fill that td with text
+// append td to row
+
+function Kitten(name, breed, traits, personality){
+  this.name = name;
+  this.breed = breed;
+  this.traits = traits;
+  this.personality = personality;
+}
+Kitten.prototype.display = function (){
+  var kittenRow = document.createElement('tr');
+  var nameCell = document.createElement('td');
+  var breedCell = document.createElement('td');
+  var traitsCell = document.createElement('td');
+  var personalityCell = document.createElement('td');
+
+  nameCell.textContent = this.name;
+  breedCell.textContent = this.breed;
+  traitsCell.textContent = this.traits;
+  personalityCell.textContent = this.personality;
+
+  kittenRow.appendChild(nameCell);
+  kittenRow.appendChild(breedCell);
+  kittenRow.appendChild(traitsCell);
+  kittenRow.appendChild(personalityCell);
+
+  tablebody.appendChild(kittenRow);
+
+}
+tablebody.innerHTML = '';
+
+var frankie = new Kitten('Frankie', 'Calico', ['spotted', 'fuzzy'], 'friendly and warm');
+
+frankie.display();
+
+var spencer = new Kitten('Spencer', 'Tabby', ['round', 'always hungry'], 'shy and hates loud noises');
+
+spencer.display();
