@@ -397,4 +397,56 @@ There are three gropus of built-in objects:
   <script src="app.js"></script>
 ```
 
+Using two for loops nested together, write some javascript that will print into console this pattern:
 
+*
+**
+***
+****
+*****
+
+### Nested for loops are for multi-dimentional problems.  
+
+The first loop `[i]` will run once then `[j]` will run once inside.  Once `[j]` is done, `[i]` will run it's second iteration then `[j]` will follow.  So on and so on...  This will continue until `[j]` is less than or equal or whatever I want to do. These are good for two-dimensional problems. 
+
+## Debugging
+
+As we already know, JavaScript is a hard language to learn..  here are some tips on how to deal with errors.  But before talking about hwo to deal with them, we should know what causes them.  To find the source of an error, it helps to know how scripts are processed.
+
+The JS interpreter uses the concept of execution contexts.  There's one global execution context; plus each function creates a new execution context.  
+
+**Execution Context**
+  - Global Context - It's in the script, but not inside a function.
+  - Function Context - This code is being run inside a function.
+
+**Variable Scope**
+  - Global Scope - If a variable is declared outisde a funciton, it can be used anywhere because it has a global scope.
+  - Function-level scope - When a variable is declared inside a funcion.
+
+The JS interpreter processes code one line at a time.  When a statement needs data from another function, it stacks the new function on top of the current task.
+
+**Error Objects** can help us find where the mistakes are.  Browsers have tools to read them. Ie. `Uncaught SyntaxError:`
+
+Some common errors are: 
+- `SyntaxError` caused by incorrect use of rules of the language. (typos)
+- `EvalError` very rare...  when the browser incorrectly evaluates text and runs it as code.
+- `ReferenceError` caused by a variable that is not declared or out of scope
+- `URIError` incorrect use of URI functions
+- `TypeError` often caused byu trying to use an object or method that does not exist
+- `RangeError` if you call a function using numbers outside its accepted range
+- `Error` The generic error object is the template from which all other errors are created
+- `NaN` caused by performing a mathematical operation using a value that is not a number.  This is a value and not an error.
+
+Debugging is about deduction!  Look at the erorr message.  Usually you will find the script that caused the error as well as the line number.  We should check how far the script is running (using tools to write messages to tell the console to tell how far the script is being executed).  We can also use breakpoints where the code is going wrong to pause the execution and inspect the values. 
+
+**Use the console** to find errors and even type code inside to track down a problem.  One of the most effective ways to track down what my code is doing is by `console.log`.  Other things we can do are writing tabular data and writing on a condition(`console.assert`).
+
+Another strategy we can use is to add breakpoints (on the sources portion of the inspector).  We can step through code using breakpoints to see where values change and a problem occur.
+
+**Try, Catch, Finally** helps when we know where our code might fail.
+
+Try - specifes the code where we think it might throw an exeption within. If an exeption occurs, control is automatically passed to the catch block.
+Catch - Stepts in with an alternative set of code.
+Finally - the contents of this block will run either way (wether the try block succeeded or failed.)
+
+If we iknow something might cause a problem, we can generate our own errors before the interpreter creates them.  `throw new Error('message') is used to tell the user that there's a problem instead of leaving them to try to figure out why the website is not working.
