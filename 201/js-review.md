@@ -450,3 +450,24 @@ Catch - Stepts in with an alternative set of code.
 Finally - the contents of this block will run either way (wether the try block succeeded or failed.)
 
 If we iknow something might cause a problem, we can generate our own errors before the interpreter creates them.  `throw new Error('message') is used to tell the user that there's a problem instead of leaving them to try to figure out why the website is not working.
+
+## Events
+
+When the user interacts with the HTML on a web page, there are three steps involved in getting it to trigger some JavaScript code.  These are known as event handling:
+
+1. Select the element node you want the script to respond to.
+2. Indicate which event on the selected node will trigger the response.
+3. State the code you want to run when the event occurs.
+
+There are three ways to bind an event to an element:
+
+1. HTML Event handlers - DO NOT USE THIS
+2. Traditional DOM event handlers - These are supported by all major browsers.  The main drawback is that you can only attach a single function to any element.  You can separate the JS from the HTML.
+3. DOM level 2 event listeners - This is the favored way to handle events.  You can trigger multiple functions.
+
+**Event listeners** have the following type of syntax:
+```javascript
+element.addEventListener('event', functionName [, Boolean]);
+```
+First the element to target, then adding the event listener, then the event to bind the node, then the name of the function to call, then event flow inside brackets or parentheses.
+

@@ -314,3 +314,28 @@ The properties that allow yoiu to control the appearance of text can be split in
   - Those that would hav ethe same effect on text no matter what font you were using
 
 We can select the font-mamily and size of type.  CSS has multiple types that you can scroll down and select from the menu.  *Note: You have to make sure your text will be compatible with a good amount of browsers.*  Not every browser will be compatible with a font type.  There are quite a few that are compatible with most, so you should always look for those rather than venturing into newer types.  Not every font is clearly legible inside your browser, so you have to test run and think of the text as if you were some farmer in Wyoming reading the page.
+
+### Wrapper class.  You can use this to divide and stylize div's a certain way.
+
+You can further stylize using sub branch classes.  IE "hero" 
+`section.blade.hero`
+
+## Forms
+
+A user can fill in a form then press a button to submit the information to the server.  They may have several form controls.  The server needs to know which piece of inputted data corresponds with which form element.  There are several types of form inputs.  
+
+- Text input `<input type="text">`
+- Password Input `<input type="password">`
+- Text Area `<textarea>` (a block of text I.e. Comments)
+- Radio Button `<input type="radio">`
+- Checkbox `<input type="checkbox">`
+- Drop Down List Box `<select>`
+- Multiple Select Box `<select multiple="multiple">`
+- File input box `<input type="file">`
+- Submit button `<input type="submit">`
+- Image Button `<input type="image">` (sylish button with textbox)
+- Button `<button>`
+
+Please refer to chapter7 in the HTML book for more types of input.
+
+Forms can be grouped by adding a `<fieldset>` element.  This is useful to make the input options obvious to the user or even stand out a little.

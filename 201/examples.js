@@ -185,6 +185,6 @@ var star = "*";
 
 for (var i = 1; i <= 5; i++) {
   for (var j = 1; j <= 5; j++) { //while j is less or equal to i, console log 
-    console.log(j) // I can throttle how many star counts j will go through.  [i] will run a loop then [j] will run it's first iteration of its own loop.  Once it finishes, i will run it's second then j will repeat... and so on and so on 5 times.
+    console.log(star + j); // I can throttle how many star counts j will go through.  [i] will run a loop then [j] will run it's first iteration of its own loop.  Once it finishes, i will run it's second then j will repeat... and so on and so on 5 times.
   }
 }
