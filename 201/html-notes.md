@@ -339,3 +339,10 @@ A user can fill in a form then press a button to submit the information to the s
 Please refer to chapter7 in the HTML book for more types of input.
 
 Forms can be grouped by adding a `<fieldset>` element.  This is useful to make the input options obvious to the user or even stand out a little.
+
+## Float Vs Flex Layouts
+
+Float:  Float is the property that displays text to people sort of like newspaper.  It takes a blocks and places it left or right relative to it's adjacent element.
+
+Flex:  How do mobile layouts perform well?
+- still handles every container as a separate box. 
