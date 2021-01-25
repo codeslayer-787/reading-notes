@@ -360,3 +360,7 @@ Search engine optimization or (SEO) is the practice of trying to help your site 
 **On-page techniques** are the best methods you can use on your web pages to improve their rating in search engines.  Search engines rely heavily on the text inside our web pages.  We should research what are commonly used keywords for the subject or product I'm building a website for.  You can identify keywords by brainstorming, organizing, researching, comparing, refine, and map phrases or words.  
 
 Analytics is a good way to learn about your visitors.  You can sign up for the google analytics service to fulful this task.  Some key information includes how many visitor are coming to your site. What are visitors looking at? Where are your visitors coming from?
+
+## Flash
+
+Flash is a technology that added animations, video, and audio to websites.  Flash came about in the 1990's and was used to create animations.  You needed the Adobe flash software to create flash animations.  To view these animations you needed the Adobe flash player.  The interface for animation creation was very similar to Photoshop.  During the early 2000's flash began to be used for video and audio insteand of just visual animations.  Most video content seemed to be flash video during this time.  
