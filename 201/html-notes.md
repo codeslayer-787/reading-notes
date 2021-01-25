@@ -346,3 +346,17 @@ Float:  Float is the property that displays text to people sort of like newspape
 
 Flex:  How do mobile layouts perform well?
 - still handles every container as a separate box. 
+
+## Images 
+
+You can control the size of images within CSS just like you can any other box.  Specifying image sizes helps pages load more smoothly because the HTML and CSS code will often load before the images, and telling the browser how much space to leave for an image allows it to render the rest of the page without waiting for the image to download.
+
+To align images using CSS we can use the float property.  New classes are created with names such as align-left to align the images.  These class names are used in addition to classes to indicate the size of an image.  You can ise the text-align property for the containing element.  You can also center an image chosing `auto` for both margin left and right.  You can use a background image and manage properties like position, repeat images, color gradients, and contrast.  
+
+## Practical Information
+
+Search engine optimization or (SEO) is the practice of trying to help your site appear nearer the top of search engine results.  
+
+**On-page techniques** are the best methods you can use on your web pages to improve their rating in search engines.  Search engines rely heavily on the text inside our web pages.  We should research what are commonly used keywords for the subject or product I'm building a website for.  You can identify keywords by brainstorming, organizing, researching, comparing, refine, and map phrases or words.  
+
+Analytics is a good way to learn about your visitors.  You can sign up for the google analytics service to fulful this task.  Some key information includes how many visitor are coming to your site. What are visitors looking at? Where are your visitors coming from?
