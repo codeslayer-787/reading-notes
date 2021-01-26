@@ -480,3 +480,21 @@ You can draw charts using the `<canvas>` element.  This element looks a lot like
 You can apply styles and colors to your canvas using fillStyle (sets the style used when filling shapes)and strokeStyle (sets the style for shape's outlines). Also, you can add transparency to shapes using `globalAlpha = transparencyValue`.  The value for transparency goes from 0.0 to 1.0 (fully opague).  Transparency is set to 1.0 by default.
 
 You can draw texts using canvas rendering.  Text can be filled using the fillStyle as used for other shapes or strokeText.  
+
+## Steps for Sky Mall project
+
+* Create an array of all product names
+
+```javascript
+
+var products = ['bag', 'etc']
+
+]
+```
+* Create your object constructor
+
+```javascript
+function ProductImage(name) {
+  this.name = name;
+  this.timesShown = 0;
+}
