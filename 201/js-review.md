@@ -471,3 +471,12 @@ element.addEventListener('event', functionName [, Boolean]);
 ```
 First the element to target, then adding the event listener, then the event to bind the node, then the name of the function to call, then event flow inside brackets or parentheses.
 
+## Charts
+
+Charts are a better way to display your data than tables.  These can be animated and easier to read than regular tables.  Charts seem to be more difficult to create than tables.  The way we will be creating these charts is through the pluggin Chart.js.  There are three different types of charts.  The line charts, pie charts, and bar charts.  You can use any chart type to display the information you want, but certain types will be better for some types of information than others.
+
+You can draw charts using the `<canvas>` element.  This element looks a lot like the `<img>`, but with fewer options.  The canvas element does require a closing tag.  You can add things to the canvas using html.  You can add transparency to your charts easily along with other effects. Canvas only supports two primitive shapes: rectangles and paths (lists of points connected by lines).  All other shapes must be created by combining one or more paths.  
+
+You can apply styles and colors to your canvas using fillStyle (sets the style used when filling shapes)and strokeStyle (sets the style for shape's outlines). Also, you can add transparency to shapes using `globalAlpha = transparencyValue`.  The value for transparency goes from 0.0 to 1.0 (fully opague).  Transparency is set to 1.0 by default.
+
+You can draw texts using canvas rendering.  Text can be filled using the fillStyle as used for other shapes or strokeText.  

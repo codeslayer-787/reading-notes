@@ -364,3 +364,25 @@ Analytics is a good way to learn about your visitors.  You can sign up for the g
 ## Flash
 
 Flash is a technology that added animations, video, and audio to websites.  Flash came about in the 1990's and was used to create animations.  You needed the Adobe flash software to create flash animations.  To view these animations you needed the Adobe flash player.  The interface for animation creation was very similar to Photoshop.  During the early 2000's flash began to be used for video and audio insteand of just visual animations.  Most video content seemed to be flash video during this time.  
+
+## HTML Video and Audio
+
+- Native support in HTML
+- Host video and audio content on the web (in the cloud)
+- This content can be rendered via HTML
+
+```HTML
+<video src="path/to/video.file">
+
+<audio src="path/to/audio.file">
+
+<video>
+  <source src="path/to/a/video.file">
+  <source src="path/to/another/video.file">
+  <!-- If one source element is unsopported, you can list another that hopefully will work.  -->
+
+
+</video>
+
+```
+
