@@ -498,3 +498,74 @@ function ProductImage(name) {
   this.name = name;
   this.timesShown = 0;
 }
+```
+* Add the push to `ProductImage.allImages.push(this);`
+* Create first loop to create new products for each new iteration of i.
+
+* work on adding id's to your html page for `left-image, right image, etc.`
+
+* Now generate the random image function `var leftIndex = Math.floor(Math.random() * ProductImage.allImages.length);`
+
+* Generate a `renderImage(){` function
+
+* Generate a `handleImageClick(event) {` function with an event listener for 'click'
+
+## Local Storage
+
+The article starts by pointing out hacks that used to be done before HTML5.  Some of them even used Adobe Flash to store up to 100kb of data and use it as a local storage booster.  Before HTML 5, browsers could store 64kb of data at the cost of speed.  HTML 5 has something called Web Storage (DOM storage) which allows web pages to store key/value pairs locally.  The data will stay within your browser and not transmitted to the remote web server.  
+
+All modern internet browsers support HTML 5 storage because this was one of the properties of HTML5.  You can check for HTML 5 storage via:
+
+```javascript
+function supports_html5_storage() {
+  try {
+    return 'localStorage' in window && window['localStorage'] !== null;
+  } catch (e) {
+    return false;
+  }
+}
+```
+There's a tool called Modernizr that detects support for html5 storage.  
+
+You can store data via HTML5 storage based on a named key, then you can retrieve the data with the same key.  This name key is a string.  The data supported are the same types JavaScript supports such as strings, booleans, integers, and floats.  The data is actually stored as a string.  You can use functions like `parseInt()` or `parseFloat()` to coerce the retireved data into the expected JS type.  
+
+The storage event itself is fired on the window object whenever `setItem()`, `removeItem()`, or `clear()` is called and actually changes something.  
+
+There's a game within the reading that saves your progress even if you close the browser window.  According to the author, this can be accomplished with the following code:
+
+```javascript
+function saveGameState() {
+    if (!supportsLocalStorage()) { return false; }
+    localStorage["halma.game.in.progress"] = gGameInProgress;
+    for (var i = 0; i < kNumPieces; i++) {
+	localStorage["halma.piece." + i + ".row"] = gPieces[i].row;
+	localStorage["halma.piece." + i + ".column"] = gPieces[i].column;
+    }
+    localStorage["halma.selectedpiece"] = gSelectedPieceIndex;
+    localStorage["halma.selectedpiecehasmoved"] = gSelectedPieceHasMoved;
+    localStorage["halma.movecount"] = gMoveCount;
+    return true;
+}
+```
+The code above uses the `localStorage` object to save whenever there's progress in the game.  When you close the browser and open it back up, the game does not call `newGame()`, but `resumeGame()`.  The function looks like this:
+
+```javascript
+function resumeGame() {
+    if (!supportsLocalStorage()) { return false; }
+    gGameInProgress = (localStorage["halma.game.in.progress"] == "true");
+    if (!gGameInProgress) { return false; }
+    gPieces = new Array(kNumPieces);
+    for (var i = 0; i < kNumPieces; i++) {
+	var row = parseInt(localStorage["halma.piece." + i + ".row"]);
+	var column = parseInt(localStorage["halma.piece." + i + ".column"]);
+	gPieces[i] = new Cell(row, column);
+    }
+    gNumPieces = kNumPieces;
+    gSelectedPieceIndex = parseInt(localStorage["halma.selectedpiece"]);
+    gSelectedPieceHasMoved = localStorage["halma.selectedpiecehasmoved"] == "true";
+    gMoveCount = parseInt(localStorage["halma.movecount"]);
+    drawBoard();
+    return true;
+}
+```
+You can also store data using SQL or the Indexed Database API.  For now it seems like we will be using HTML 5, but it is good to keep other options in mind.
