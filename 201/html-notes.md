@@ -390,6 +390,9 @@ Flash is a technology that added animations, video, and audio to websites.  Flas
 
 When you evaluate the output between teams, common wisdowm tells us that a more "professional" team will accomplish more because they are able to stay on task and minimize side-talk and interruptions.  The article seems to pivot away from that notion and the results seem to indicate that good teams do not have a specific way to conduct their business.  The common thread between good teams appears to be communication.  Google found that regardless if a team is highly structured with a clear leader or fluid (without a clear leader), the effectiveness of a team can be lifted if everyone gets roughly the same opportunity to talk.  Some teams will be more personal and others more business oriented, but a good leader or manager should encourage open conversation from all team members.  Production seems lower in teams where one person took the reigns and did most of the talking.  
 
+It seems like there is a collective IQ that does not depend on the individual IQ of its team members.  This IQ is brought up by collaboration and communication.  Teams with highly intelligent individuals who don't communicate that much have a lower collective IQ while teams with average members who collaborate and communicate more have a higher IQ.  A key takeaway for managers is to encourage the entire team to participate.  Often, senior members will comandeer meetings due to their knowledge or positions.  Managers need to prevent this from happening by openly communicating their goals and finding ways to bring everyone to the conversation.
+
+
 ## Transforms
 
 The transform property comes in two different settings.  Two-dimensional and three-dimensional.  Elements may be distored, or transformed with ether type of transofrm.  Some kinds of transforms include:
