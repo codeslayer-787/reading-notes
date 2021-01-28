@@ -499,6 +499,7 @@ function ProductImage(name) {
   this.timesShown = 0;
 }
 ```
+
 * Add the push to `ProductImage.allImages.push(this);`
 * Create first loop to create new products for each new iteration of i.
 
@@ -517,6 +518,7 @@ The article starts by pointing out hacks that used to be done before HTML5.  Som
 All modern internet browsers support HTML 5 storage because this was one of the properties of HTML5.  You can check for HTML 5 storage via:
 
 ```javascript
+
 function supports_html5_storage() {
   try {
     return 'localStorage' in window && window['localStorage'] !== null;
@@ -525,6 +527,7 @@ function supports_html5_storage() {
   }
 }
 ```
+
 There's a tool called Modernizr that detects support for html5 storage.  
 
 You can store data via HTML5 storage based on a named key, then you can retrieve the data with the same key.  This name key is a string.  The data supported are the same types JavaScript supports such as strings, booleans, integers, and floats.  The data is actually stored as a string.  You can use functions like `parseInt()` or `parseFloat()` to coerce the retireved data into the expected JS type.  
@@ -534,6 +537,7 @@ The storage event itself is fired on the window object whenever `setItem()`, `re
 There's a game within the reading that saves your progress even if you close the browser window.  According to the author, this can be accomplished with the following code:
 
 ```javascript
+
 function saveGameState() {
     if (!supportsLocalStorage()) { return false; }
     localStorage["halma.game.in.progress"] = gGameInProgress;
@@ -547,9 +551,11 @@ function saveGameState() {
     return true;
 }
 ```
+
 The code above uses the `localStorage` object to save whenever there's progress in the game.  When you close the browser and open it back up, the game does not call `newGame()`, but `resumeGame()`.  The function looks like this:
 
 ```javascript
+
 function resumeGame() {
     if (!supportsLocalStorage()) { return false; }
     gGameInProgress = (localStorage["halma.game.in.progress"] == "true");
@@ -568,4 +574,36 @@ function resumeGame() {
     return true;
 }
 ```
+
 You can also store data using SQL or the Indexed Database API.  For now it seems like we will be using HTML 5, but it is good to keep other options in mind.
+
+The API is accessible through the `localStorage` object within our runtime.  
+
+`localStorage.setItem('key', 'value')` method for placing something in localStorage, passes a key and value to the store.
+
+`var number = localStorage.getElement('key')` method for retrieving an item from localStorage, just passes a key and return its value.
+
+`localStorage.getItem('key')`, method for retrieving an item from localStorage, just passes a key and returns the value.
+
+`localStorage.clear()`, method for clearing all values in localStorage.
+
+`JSON` JavaScript Object Notation - object, which is another js API for manipulating javascript objects
+  - `JSON.stringify` turns a JS object or array into a string
+  - `JSON.parse` turns a string that contains JS object notation and converts it back into a JS object.
+
+  ```javascript
+
+  var irwin = {
+    name: 'Irwin'
+    age: 36
+  }
+
+  ```
+
+  `var irwinString = JSON.stringify(irwin);` This is to convert my object into strings and store it in local memory.
+
+  `localStorage.setItem('irwin', irwinString);`
+
+  `localStorage.getItem('irwin')`
+
+  `JSON.parse(irwinString);` To convert the strings back into objects
