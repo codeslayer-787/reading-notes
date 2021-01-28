@@ -386,3 +386,22 @@ Flash is a technology that added animations, video, and audio to websites.  Flas
 
 ```
 
+## On building the perfect team
+
+When you evaluate the output between teams, common wisdowm tells us that a more "professional" team will accomplish more because they are able to stay on task and minimize side-talk and interruptions.  The article seems to pivot away from that notion and the results seem to indicate that good teams do not have a specific way to conduct their business.  The common thread between good teams appears to be communication.  Google found that regardless if a team is highly structured with a clear leader or fluid (without a clear leader), the effectiveness of a team can be lifted if everyone gets roughly the same opportunity to talk.  Some teams will be more personal and others more business oriented, but a good leader or manager should encourage open conversation from all team members.  Production seems lower in teams where one person took the reigns and did most of the talking.  
+
+## Transforms
+
+The transform property comes in two different settings.  Two-dimensional and three-dimensional.  Elements may be distored, or transformed with ether type of transofrm.  Some kinds of transforms include:
+
+- Rotate - Rotates an element
+- Scale - Changes the appeared size of an element.
+- Translate - Pushes and pulls an element in different directions without interrupting the normal flow of the document
+- Skew - distorts elements on the horizontal axis
+- 2D Cube - Creates a 2D cube like the ones you draw on paper
+- Transofrm Origin - Can accept one or two values
+- Perspective - Needed to create 3D transforms
+
+## Transitions
+
+With CSS3 transitions you have the potiential to alter the appearance and behavior of an element whenever a state change occurs such as when it's hovered over, focused on, active, or targeted.  Animations within CSS3 allow the appearance and behavior of an element to be altered in multiple keyframes.  You can change colors and shapes using transitions.  I.e. From a square to a circle.  Transitions can be applied in interesting ways such as animating a button going down when pressed then up when depressed or a card flipping.
