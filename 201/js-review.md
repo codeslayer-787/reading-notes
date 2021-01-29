@@ -607,3 +607,5 @@ The API is accessible through the `localStorage` object within our runtime.
   `localStorage.getItem('irwin')`
 
   `JSON.parse(irwinString);` To convert the strings back into objects
+
+`eslintrc.json` - es(ecma script), lint (lint), rc, json 

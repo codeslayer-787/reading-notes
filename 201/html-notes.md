@@ -392,7 +392,6 @@ When you evaluate the output between teams, common wisdowm tells us that a more 
 
 It seems like there is a collective IQ that does not depend on the individual IQ of its team members.  This IQ is brought up by collaboration and communication.  Teams with highly intelligent individuals who don't communicate that much have a lower collective IQ while teams with average members who collaborate and communicate more have a higher IQ.  A key takeaway for managers is to encourage the entire team to participate.  Often, senior members will comandeer meetings due to their knowledge or positions.  Managers need to prevent this from happening by openly communicating their goals and finding ways to bring everyone to the conversation.
 
-
 ## Transforms
 
 The transform property comes in two different settings.  Two-dimensional and three-dimensional.  Elements may be distored, or transformed with ether type of transofrm.  Some kinds of transforms include:
