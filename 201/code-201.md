@@ -55,7 +55,7 @@ The `<div>` element is mainly used to group together related elements.
 
 ## The history of the Unix command-line shell
 
-Emily Kapor-Mater
+The speaker today was Emily Kapor-Mater who is a Software Engineer at Quality Logic.  The topic of the talk was the history of the Unix Command-line Shell. Some notes I took during the presentation:
 
 There used to be many shells called sh.  The Bourne Shell was the most popular.
 
@@ -75,5 +75,5 @@ When running a script from a text file, each line gets read and evaluated, then 
 
 When running interactevely, STDIN is provided by typing commands, and both STDOUT and STDERR are pointed out to the user.
 
-Emily showed us examples of examples of shell commands such as pwd, cd, cp, rm, and mv.  Emily created an webpage only using the shell then moved files around (even showed us how to choose or omit files through arguments.)
+Emily showed us examples of examples of shell commands such as pwd, cd, cp, rm, and mv.  Emily created an webpage only using the shell then moved files around (even showed us how to choose or omit files through arguments.)  Emily's display of mastery around the command prompt showed me how little I know, but also gave me a goal that I'd like to attain.  I know it'll take some time, but I will strive to be able to be able to show that level of expertise during my career.  
 

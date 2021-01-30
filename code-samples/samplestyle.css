@@ -5,7 +5,11 @@ div {
   margin: 10px;
   }
 
-#box1{
-  
+cite {
+  text-rendering: auto;
+}
 
+h1 { 
+  border-width: 5px;
+  border: dashed blue;
 }
