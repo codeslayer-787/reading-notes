@@ -52,3 +52,28 @@ The `<aside>` element has two purposes:  When used inside an `<article>` element
       * Text that supports the main body of an article
 
 The `<div>` element is mainly used to group together related elements.  
+
+## The history of the Unix command-line shell
+
+Emily Kapor-Mater
+
+There used to be many shells called sh.  The Bourne Shell was the most popular.
+
+The C Shell csh was modeled on the C programming language and contained many interacitve features.
+
+The GNU project created the Bourne-Again Shell or bash as a free and enhanced replacement for sh.
+
+The Z Shell zsh was made the default shell on macOSD in 2019.  bash and zsh are backwards compatible with the original sh making shell scripts very portable.
+
+The command-line shell is a REPL.
+- Read a line of input
+- Evaluate the input
+- Print the result
+- Loop back to the first step.
+
+When running a script from a text file, each line gets read and evaluated, then the next one and so on.  Shells have an input stream called STDIN (standard input, or "0") and two output streams called STDOUT (standard output, or "1") and STDERR (standard error, or "2").
+
+When running interactevely, STDIN is provided by typing commands, and both STDOUT and STDERR are pointed out to the user.
+
+Emily showed us examples of examples of shell commands such as pwd, cd, cp, rm, and mv.  Emily created an webpage only using the shell then moved files around (even showed us how to choose or omit files through arguments.)
+
