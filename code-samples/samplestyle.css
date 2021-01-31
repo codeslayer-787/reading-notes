@@ -5,11 +5,24 @@ div {
   margin: 10px;
   }
 
-cite {
-  text-rendering: auto;
+h1 { 
+  border-width:0px;
+  border: dashed blue;
 }
 
-h1 { 
-  border-width: 5px;
-  border: dashed blue;
+.top-div {
+  width: 200px;
+}
+
+.inner-div {
+  width: 100px;
+  margin: 0 auto;
+}
+
+cite {
+  color: red
+}
+body {
+  color: white;
+  background-color: black;
 }

@@ -4,8 +4,13 @@
 ## Description
 This is a collection of my readings for Codefellows.
 
-### About Me
-My name is Irwin.  I love my family, music, computers, and videogames.  I spend a lot of my free time watching movies (especially horror), trying to figure out how to make my car faster, and (to no avail) trying to convince my son that Fortnite is not the best game ever.  
+## Elevator Pitch:
+
+Hello, my name is Irwin.  I used to run a small logistics company in the oil & gas industry.  I've been tinkering with computers since I was 16 years old.  I was forced to close my business due to Covid 19, which gave me the oportunity to self-reflect and think about what I'm passionate about.  Someone once said "choose a job that you love doing and you will never work a day in your life".  And that's why I decided to learn Software Development.  I'd like to use my skills in a highly creative environment where I'm challenged and encouraged to use my creativity.  I'm an experienced police officer and detective, and I believe I can bring my experience solving very complex problems in creative ways while maintainig good documentation and adhering to strict standards.
+
+### More About Me:
+
+I love my family, music, computers, and videogames.  I spend a lot of my free time watching movies (especially horror), trying to figure out how to make my car faster, and (to no avail) trying to convince my son that Fortnite is not the best game ever.  
 
 I was born and raised in Puerto Rico.  We were a poor in money but rich in love kind of family.  My mom bought me my first computer when I was 16 years old and it totally changed my life.  I became very curious about how it worked so knowing that we couldn't afford to break the computer, I went and got a job in a store called CompUSA (I don't think it exists anymore.)  That way I could buy parts and tinker with it both on the hardware and software side.  
 
