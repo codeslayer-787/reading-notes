@@ -1,13 +1,3 @@
-function multiply(a, b){
-  a * b
+function isIsogram(str){
+  return str.split('').filter((item, pos, arr)=> arr.indexOf(item.toLowerCase) == pos).length == str.length;
 }
-multiply();
-
-
-function unixEpochTime(){
-  var d = new Date()
-  return d.getTime();
-}
-
-var testAlpha = unixEpochTime();
-var testBeta = unixEpochTime;
