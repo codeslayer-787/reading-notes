@@ -80,3 +80,9 @@ Emily showed us examples of examples of shell commands such as pwd, cd, cp, rm, 
 ## Code & Coffee:  Exploring Web Development
 
 The meeting I chose was called Exploring Web Development, hosted by Christopher Harrison.  The overall experience was great as we got to see Christopher creating and modifying code through different frameworks.  It was a great demonstration on how frameworks work!  Some of the technologies used were Django, TypeScript, and Vue.js. He created some code and deployed it through Azure.  I consider this webinar as a preview of the things that we will come in future courses and I'm very excited about it.  This meetup was more of a webinar, so interactivity was done through Youtube's chat system.  The chat was used to ask questions, so meeting other members was not feasible.  I think that the presentation looked very much like a Code-Fellows lecture so I felt right at home!  
+
+## Cybersecurity solutions to prevent zero day attacks
+
+The presenter, Alexander Gounares guided us through some of the history and the current status of the field of cybersecurity.  The presenter showed us the 20 questions game to explain how hackers target and attack.  Throughout this part of the presentation, he mentioned that hackers typically act in an elimination basis when they look for flaws in someone's system.  
+
+One of the exploits he showed is called Stack Overflow Exploit.  This type of attack allows the hacker can control the computer remotely.  To sucessfully launch the attack, one must get past the Stack Canary.  Guessing the number will get you past all of the security.  A system can be taken over in as few as 4000 API calls, bypassing traditional cybersecurity defenses.  
