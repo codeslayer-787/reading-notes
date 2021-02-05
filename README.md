@@ -6,7 +6,7 @@ This is a collection of my readings for Codefellows.
 
 ## Elevator Pitch:
 
-Hello, my name is Irwin.  I used to run a small logistics company in the oil & gas industry.  I've been tinkering with computers since I was 16 years old.  I was forced to close my business due to Covid 19, which gave me the opportunity to self-reflect and think about what I'm passionate about.  Someone once said "choose a job that you love doing and you will never work a day in your life".  And that's why I decided to learn Software Development.  I'd like to use my skills in a highly creative environment where I'm challenged and encouraged to use my creativity.  I'm an experienced police officer and detective, and I believe I can bring my experience solving very complex problems in creative ways while maintaining good documentation and adhering to strict standards.
+Hello, my name is Irwin.  I used to run a small logistics company in the oil & gas industry.  I've been tinkering with computers since I was 16 years old.  I was forced to close my business due to Covid 19, which gave me the opportunity to self-reflect and think about what I'm passionate about.  Someone once said "choose a job that you love doing and you will never work a day in your life".  And that's why I decided to learn Software Development.  I’d love to bring new software into existence and solve puzzles for a living.  I'm an experienced police officer and detective, and I believe I can bring my experience solving very complex problems in creative ways while maintaining good documentation and adhering to strict standards.
 
 ### More About Me:
 
