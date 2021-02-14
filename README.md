@@ -50,7 +50,7 @@ In the words of an unknown phylosopist:
 
 [HTML, JS, and CSS Basics](/201/html-notes.md/)
 
-[JavaScript lessons](/201/js-review.md/)
+[JavaScript Lessons](/201/js-review.md/)
 
 [On Pair Programming](pair-programming.md/)
 
