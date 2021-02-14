@@ -12,7 +12,7 @@ Media queries were built as an extension to media types commonly found when targ
 
 ## Floats:
 
-Floats allow us to wrap text around images.  According to the reading, it can be used to create entire web layouts as well. Floats should be used for smaller instances rather than format the entire page.  The Flexbox and Grid tools are more powerful for formating your web page than just using floats.  Using the `clear` property, you can "break" the float and add elements without having them wrap around the floated element.  You can set the direction for the `clear` in case you want something to not follow the float only from one direction.  
+Floats allow us to wrap text around images.  According to the reading, it can be used to create entire web layouts as well. Floats should be used for smaller instances rather than format the entire page.  The Flexbox and Grid tools are more powerful for formatting your web page than just using floats.  Using the `clear` property, you can "break" the float and add elements without having them wrap around the floated element.  You can set the direction for the `clear` in case you want something to not follow the float or just follow only from one direction.  
 
 ### Clearing floats:
 
@@ -20,3 +20,14 @@ Floats allow us to wrap text around images.  According to the reading, it can be
 - The Overflow Method relies on setting the overflow CSS property on a parent element.
 - The Easy Clearing Method uses a CSS pseudo selector (`:after`) to clear floats.  `.clearfix:after {`
 
+## References:
+
+https://learn.shayhowe.com/advanced-html-css/responsive-web-design/ (Links to an external site.)
+
+https://css-tricks.com/all-about-floats/ (Links to an external site.)
+
+https://css-tricks.com/dont-overthink-it-grids/ (Links to an external site.)
+
+https://www.freecodecamp.org/news/css-floats-explained-by-riding-an-escalator-57fa55232333/ (Links to an external site.)
+
+http://smacss.com/
