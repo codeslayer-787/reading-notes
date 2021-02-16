@@ -15,6 +15,6 @@ Some of the advantages of pair programming are:
 1. Greater efficiency
 1. Engaged collaboration
 1. Learning from fellow students
-1. Improving ocial skills
+1. Improving social skills
 1. Job interview readiness
 1. Work environment readiness

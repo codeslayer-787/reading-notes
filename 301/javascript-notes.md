@@ -11,7 +11,7 @@ We add the file to the html the following way:
 <script src="js/jquery-3.5.1.js"></script>
 <script src= "js/app.js"></script>
 ```
-According to our text, jQuery is very popular and about 96% of the websites online today use it.  jQuery's motto is "write less, do more" becasue it allows us to achieve our goals in fewer lines.
+According to our text, jQuery is very popular and about 96% of the websites online today use it.  jQuery's motto is "write less, do more" because it allows us to achieve our goals in fewer lines.
 
 To check that the page is ready to work with our code we use:
 
