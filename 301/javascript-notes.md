@@ -21,3 +21,14 @@ $(document).ready(function(){
 });
 ```
 We can host our own jQuery files or use a Content Deliver Network or CDN to accomplish this.  CDN is a series of servers spread out around the world.  The purpose of these is to serve static files quickly.  You should place your CDN script at the bottom of the body of the page so that the website loads quicker.  Also, if you place it earlier on the page, some elements might not be accessed as they haven't loaded when the script is called.  
+
+## Mustache
+
+Mustache is a type of template syntax.  It expands tags in a template using values provided in a hash or object.  It is **logic-less** because it does not use `if`, `else`, or `loops`.  Tags can be replaced with a value or multiple values.  According to the reading, mustache is considered the base for JavaScript templating.  It supports multiple languages as well so you can reuse it.  The syntax looks something like:
+
+```javascript
+Mustache.render("Hello, {{name}}", { name: "Sherlynn" });
+```
+We see two braces around `{{name}}` which means it is a placeholder.  The placeholder gets replaced with an actual value `{{Mario}}`.  
+
+Source: https://1sherlynn.medium.com/javascript-templating-language-and-engine-mustache-js-with-node-and-express-f4c2530e73b2

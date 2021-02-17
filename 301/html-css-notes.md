@@ -31,3 +31,29 @@ https://css-tricks.com/dont-overthink-it-grids/ (Links to an external site.)
 https://www.freecodecamp.org/news/css-floats-explained-by-riding-an-escalator-57fa55232333/ (Links to an external site.)
 
 http://smacss.com/
+
+## Flexbox
+
+![Completed Exercise:](https://bl6pap004files.storage.live.com/y4mR-DA82u5pGKl8Os5OTMqFhqHXLSuuxvvTIy9S4fDkF4ewytXg0SGQGA_K2eRoYcoIGsyNk628hXA8tbA0XzLcKg2ueA8U1U52u2wn-4fPXvjhPzVHTOBQIvcJMwt2czI8nh-j875IuD8bJKcuZ1HW2DYlH1uMrHdEMyBLAfb1PiwIrBaQY5rGoddjln5bLhB?width=660&height=332&cropmode=none)
+
+This exercise was an excellent way to practice the flexbox skills.  It is beautifully designed as well.  Some useful definitions are:
+
+`justify-content` - Moves items horizontally
+
+`align-items` - Moves items vertically
+
+`flex-direction` - Defines the direction items are placed inside a container
+
+`order` - Takes a specific item and moves it horizontally
+
+`align-self` - Takes a specific item and moves it vertically
+
+`flex-wrap` - Spreads out items to additional lines
+
+`flex-flow` - Combines flex-direction and flex-wrap (YOLO!)
+
+Sources:
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+https://flexboxfroggy.com/
