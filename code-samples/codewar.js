@@ -1,5 +1,13 @@
-function isIsogram(str){
-  return str.split('').filter((item, pos, arr)=> arr.indexOf(item.toLowerCase) == pos).length == str.length;
+
+
+function contact(name, number) {
+  this.name = name;
+  this.number = number;
 }
 
+var a = new contact("David", 12345);
+var b = new contact("Amy", 987654321)
 
+
+a.window.print(a);
+b.window.print();
