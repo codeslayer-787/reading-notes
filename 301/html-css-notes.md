@@ -57,3 +57,21 @@ Sources:
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 https://flexboxfroggy.com/
+
+## Grid
+
+![Grid Garden Excercise:](https://bl6pap004files.storage.live.com/y4mGCo75I-N8S2gvNk-U22KQDYw1upDQnq4qCy4g9UKT3xLRyux4WPgOEkNxHxl1vo85iq-TUE-tF06xE3r7yYFc7WE2487yJDoI5WfAlV1q7yfJyfyIveF3rpymCT8hYAmJAaOFzbsC0aBFAZ_aU5f7HDz7pE5rZBinscEjsni3j7RO3K5Kj6HIyDympY-lPPB?width=660&height=325&cropmode=none)
+
+The grid garden exercise was a good way to experience how to build a page using the grid technique.  Some key takeaways are:
+
+`grid-column` and `grid-row` will allow us to pinpoint a specific block and move it exactly where we want in our page if we have difficulty with it falling into place by itself.  
+
+`grid-template` is an excellent way to assign sizes to all my elements from the same code block.  I believe this is where this techqnique really stands out from the rest.
+
+`grid-column-start` and `grid-column-end` are really great ways to span through multiple elements.  
+
+If we use `order`, we can move an entire class of elements (even give them negative values).  We can override the order of items within our grid.  
+
+This exercise was challenging at some points as some calculations can get somewhat complex.  In practice, this can get tricky as you target multiple elements.  
+
+Source:  https://cssgridgarden.com/
