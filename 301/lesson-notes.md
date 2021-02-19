@@ -18,3 +18,7 @@ Some of the advantages of pair programming are:
 1. Improving social skills
 1. Job interview readiness
 1. Work environment readiness
+
+## HEROKU
+
+Heroku is a container-based cloud service we can use to deploy and manage our apps.  It supports Java, Node.js, Python among others.  Our applications will have a unique domain to route HTTP requests to teh correct app container (dyno).  Heroku seems to be able to run the apps from the cloud reliably.  Today, we installed Heroku via shell commands.  For Windows (at least my machine) I had to run the .exe file provided in the page, then run the rest of the commands through the shell.  The service is free, but still asks for a credit card for incidentals due to too much use.  Somehow, I find HEROKU to be similar to Postgress, but with more features (so it appears.)
