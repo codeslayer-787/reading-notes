@@ -51,3 +51,26 @@ The second meetup I'm interested on is about how data and design go together hos
 
 I'm very interested in how developers talk in my native language (Spanish) so I will be attending a webinar on how the future of tech in Latin America hosted by ProductTank Mexico City.  This one will be very intersting to me as I've flirted with the idea of moving to South America and working remotely.  
 
+## Node.Js
+
+According to the reading:
+> Node.Js is an event-based, non-blocking, asynchronous I/0 runtime that uses Google's VA JavaScript engine and libuv library.
+>
+
+Node is built on Google Chrome's V8 JS engine which is open-source.  It's called a JavaScript runtime because we can use it to execute JavaScript in our computers.
+
+Fortunately, Node.Js was included when we installed npm in our systems early on.  Node allows us to write the most recent version of JS syntax because it has strong support for the newer versions.  The article shows us how to install Node in our computers through installing npm or binaries.  There are frameworks such as React or Angular that depend on a Node back end to run.  
+
+Node.js' biggest use case is for running JavaScript on a server.  One big difference between Node and other runtime environments is that Node.js is single-threaded and event-driven.  Node reacts to events.  
+
+![Node's execution model:](https://uploads.sitepoint.com/wp-content/uploads/2012/10/1516152673node_event_loop.png)
+
+Node runs in a single thread which can crash the entire process if one blocks I/O calls.  CPU intensive operations should be handed off to a worker thread.  Some developers dislike the callback-based style of coding that JS imposes.  
+
+Node is suited for applications that require real-time interaction or collaboration.  According to the reading, it is used for building apps that handle lots of requests that are I/O driven such as content streaming.  
+
+Some advantages of Node.Js are speed and scalability.  Node "speaks" JSON which is the most important data exchange format right now.  Another big advantageis that JavaScript is used almost universally and Node is a perfect match for it.  In short, it is a great tool to have in our arsenal.  
+
+Source:
+
+https://www.sitepoint.com/an-introduction-to-node-js/
