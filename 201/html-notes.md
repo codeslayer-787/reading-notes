@@ -392,6 +392,10 @@ When you evaluate the output between teams, common wisdowm tells us that a more 
 
 It seems like there is a collective IQ that does not depend on the individual IQ of its team members.  This IQ is brought up by collaboration and communication.  Teams with highly intelligent individuals who don't communicate that much have a lower collective IQ while teams with average members who collaborate and communicate more have a higher IQ.  A key takeaway for managers is to encourage the entire team to participate.  Often, senior members will comandeer meetings due to their knowledge or positions.  Managers need to prevent this from happening by openly communicating their goals and finding ways to bring everyone to the conversation.
 
+## REST
+
+From the article, I understand how computers interpret verbs and nowns.  A smart way to search for something on the internet is to use more nowns and less verbs (depends on the situation).  Or use one verb for multiple nowns.  Why?  Because we search for objects in our browser more often.  For example, when we search for something in Amazon.com, we don't say what the thing does (unless you don't know what it's called).  We just name what we are looking for.  Same goes to some extend when we search for an item through Google or any other search.  Google has become far more sophysticated now, but I remember the days when you had to concatenate your searches right for you to be able to find the actual thing you were looking for.  We should think of the search bar as a **get** entry.  We can input nowns or proper names to look for something or someone.  
+
 ## Transforms
 
 The transform property comes in two different settings.  Two-dimensional and three-dimensional.  Elements may be distored, or transformed with ether type of transofrm.  Some kinds of transforms include:
