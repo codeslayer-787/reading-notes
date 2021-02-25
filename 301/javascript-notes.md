@@ -32,3 +32,94 @@ Mustache.render("Hello, {{name}}", { name: "Sherlynn" });
 We see two braces around `{{name}}` which means it is a placeholder.  The placeholder gets replaced with an actual value `{{Mario}}`.  
 
 Source: https://1sherlynn.medium.com/javascript-templating-language-and-engine-mustache-js-with-node-and-express-f4c2530e73b2
+
+## Functional Programming:
+
+According to Wikipedia, functional programming is a programming paradign - a style of building the structure and elements of computer programs that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data.
+
+**Pure functions** - They return the same result if given the same arguments or `deterministic`.  Do not cause any observable side effects.  In constrast, an impure function uses flobal objects that are not passed as a parameter to the function.  The result of that is that if one changes the values of global objects, your function will have different results.  
+
+Pure functions do not read external files as the contents may change.  Functions that rely in random number generators cannot be pure.  Another characteristic of these functions is that they don't cause any observable side effects such as modifying a global object or parameter passed by reference.
+
+### Some benefits of pure functions are:
+
+- The code is easier to test.
+
+- The code does not change - *immutable*
+
+- Pure functions will always have the same output given the same input - *referential trnasparency*.  
+
+- Functions are treated as values and used as data - *firs-class entities*.
+
+```javascript
+
+const sum = (a, b) => a + b;
+const subtraction = (a, b) => a - b;
+
+const doubleOperator = (f, a, b) => f(a, b) * 2;
+
+doubleOperator(sum, 3, 1); // 8
+doubleOperator(subtraction, 3, 1); // 4
+```
+
+Higher-order functions can take one or more functions as arguments or return a function as its result.  The `doubleOperator` function above is considered a higher-order function because it takes an operator function as an argument and uses it. 
+
+When refactoring JavaScript for performance and readability, you want to build your code in a way that is easier to read in English.  Some strategies that we can implement are:
+
+- Returning early from functions as shown below.
+
+```javascript
+
+function showProfile(user) {
+  if (user.authenticated === true) {
+    // ..
+  }
+}
+
+// Refactor into ->
+
+function showProfile(user) {
+  // People often inline such checks
+  if (user.authenticated === false) { return; }
+  // Stay at the function indentation level, plus less brackets
+  ```
+
+- Cache variables so functions can be read like sentences.
+
+```javascript
+
+function searchGroups(name) {
+  for (let i = 0; i < continents.length; i++) {
+    const group = continents[i]; // This code becomes self-documenting
+    for (let j = 0; j < group.length; j++) {
+      const tags = group[j].tags;
+      for (let k = 0; k < tags.length; k++) {
+        if (tags[k] === name) {
+          return group[j].id; // The core of this nasty loop is clearer to read
+```
+
+- Check for web APIs before implementing your own functionality
+
+```javascript
+
+function cacheBust(url) {
+  return url.includes('?') === true ?
+    `${url}&time=${Date.now()}` :
+    `${url}?time=${Date.now()}`
+}
+
+// Refactor into ->
+
+function cacheBust(url) {
+  // This throws an error on invalid URL which stops undefined behaviour
+  const urlObj = new URL(url);
+  urlObj.searchParams.append('time', Date.now); // Easier to skim read
+  return url.toString();
+}
+```
+
+Sources:
+
+https://medium.com/the-renaissance-developer/concepts-of-functional-programming-in-javascript-6bc84220d2aa
+
+https://dev.to/healeycodes/refactoring-javascript-for-performance-and-readability-with-examples-1hec
