@@ -74,3 +74,40 @@ Some advantages of Node.Js are speed and scalability.  Node "speaks" JSON which 
 Source:
 
 https://www.sitepoint.com/an-introduction-to-node-js/
+
+### Partner Power Hour:
+
+The speaker today was Kris Minkel from iSoftStone.  Kris talked about staying engaged while working remote.  He mentioned how the world has changed since COVID-19 and how many workplaces switched from in-person to remote jobs.  Some tips include:
+
+- Keeping your screen open while working.
+
+- Check on teamates.
+
+- Respect your teammates privacy.
+
+- Share an interesting article or funny appropriate meme you've seen recently.
+
+- Check in with teammates and ask them if they can use any help.
+
+- Ask to take up extra tasks at work.
+
+- Try and get together with your team at least once per week on video.
+
+- Always ask if someone is available before you call them.
+
+Kris gave some tips and ideas for not become "that person".  He also provided tips for mental health engagement.  Some tips provided were:
+
+- Go for a walk for at least 10 minutes.
+
+- Take your lunch away from your computer.
+
+- Schedule times to be away from your computer to unplug.
+
+- Make sure you can put a smile on someone's face at least twice per day.
+
+- Say something nice and appropriate to a co-worker.
+
+- Snack and eat healthy.
+
+- Drink plenty of water.
+
