@@ -35,9 +35,9 @@ Source: https://1sherlynn.medium.com/javascript-templating-language-and-engine-m
 
 ## Functional Programming:
 
-According to Wikipedia, functional programming is a programming paradign - a style of building the structure and elements of computer programs that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data.
+According to Wikipedia, functional programming is a programming paradigm - a style of building the structure and elements of computer programs that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data.
 
-**Pure functions** - They return the same result if given the same arguments or `deterministic`.  Do not cause any observable side effects.  In constrast, an impure function uses flobal objects that are not passed as a parameter to the function.  The result of that is that if one changes the values of global objects, your function will have different results.  
+**Pure functions** - They return the same result if given the same arguments or `deterministic`.  Do not cause any observable side effects.  In contrast, an impure function uses global objects that are not passed as a parameter to the function.  The result of that is that if one changes the values of global objects, your function will have different results.  
 
 Pure functions do not read external files as the contents may change.  Functions that rely in random number generators cannot be pure.  Another characteristic of these functions is that they don't cause any observable side effects such as modifying a global object or parameter passed by reference.
 
@@ -47,7 +47,7 @@ Pure functions do not read external files as the contents may change.  Functions
 
 - The code does not change - *immutable*
 
-- Pure functions will always have the same output given the same input - *referential trnasparency*.  
+- Pure functions will always have the same output given the same input - *referential transparency*.  
 
 - Functions are treated as values and used as data - *firs-class entities*.
 
@@ -123,3 +123,65 @@ Sources:
 https://medium.com/the-renaissance-developer/concepts-of-functional-programming-in-javascript-6bc84220d2aa
 
 https://dev.to/healeycodes/refactoring-javascript-for-performance-and-readability-with-examples-1hec
+
+## Call Stack
+
+A call stack keeps track of its place in a script that calls multiple functions.  When a script calls a function, the interpreter adds it to the call stack and then starts carrying out the function.  Functions that are claled by that function are added to the call stack further up and run where their calls are reached.  When the current function is finished, the interpreter takes it off the stack and resumes execution where it left off in the last code listing.  
+
+In Asynchronous JavaScript, we have a callback function, an event loop and a trask queue.  The callback function is acted upon by the call stack during execution after the call back function has been pushed to the stack by the event loop.  For example:
+
+```javascript
+
+function firstFunction(){
+  console.log("Hello from firstFunction");
+}
+
+function secondFunction(){
+  firstFunction();
+  console.log("The end from secondFunction");
+}
+
+secondFunction();
+```
+
+A stack overflow occurs when there is a recursive function (a function that calls itself) without an exit point.  The browser (hosting environment) has a maximum stack call that it can accomodate before throwing a stack error.  For example, the following code will result in a stack overflow error:
+
+```javascript
+
+function callMyself(){
+  callMyself();
+}
+
+callMyself();
+
+```
+
+## JavaScript Errors:
+
+There are several types of error messages:
+
+- Reference errors occur when you try to use a variable that is not yet declared.
+
+  - `console.log(foo) // Uncaught ReferenceError: foo is not defined`
+
+- Syntax errors occur when there is text that cannot be parsed in terms of syntax.
+
+  - `JSON.parse( {'foo': 'bar'} ) // Uncaught SyntaxError: Unexpected token o in JSON at position 1`
+
+- Range errors occur when you try to manipulate an object with some kind of length and give it an invalid length.
+
+  - `var foo= [] foo.length = foo.length -1 // Uncaught RangeError: Invalid array length`
+
+- Type errors occur when the types (numbers, string, etc.) you're tryting to use or access are incompatible.
+
+  - `var foo = {}`
+`foo.bar // undefined`
+`foo.bar.baz // Uncaught TypeError: Cannot read property 'baz' of undefined`
+
+Sources:  
+
+https://developer.mozilla.org/en-US/docs/Glossary/Call_stack
+
+https://www.freecodecamp.org/news/understanding-the-javascript-call-stack-861e41ae61d4/
+
+https://codeburst.io/javascript-error-messages-debugging-d23f84f0ae7c
