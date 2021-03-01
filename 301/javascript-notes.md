@@ -185,3 +185,38 @@ https://developer.mozilla.org/en-US/docs/Glossary/Call_stack
 https://www.freecodecamp.org/news/understanding-the-javascript-call-stack-861e41ae61d4/
 
 https://codeburst.io/javascript-error-messages-debugging-d23f84f0ae7c
+
+## Embeded JavaScript Templating (EJS)
+
+EJS is a simple templating language that lets you generate HTML markup with plain JavaScript.  EJS features simple syntax through scriptlet tags.  Another advantage of EJS is that it's easy to debut because errors display as JS exeptions.  EJS also caches the intermediate JS functions which makes them faster to execute.  Suppor also seems to be great for EJS as it is constantly improved.  
+
+To use in a script tag:
+
+```javascript
+<script src="ejs.js"></script>
+<script>
+  let people = ['geddy', 'neil', 'alex'];
+  let html = ejs.render('<%= people.join(", "); %>', {people: people});
+</script>
+```
+
+You can also install EJS with NPM `npm install ejs`.  The video series showed some simple uses such as creating new tags and modifying them through JS.  Overall it seems very interesting and not terribly hard to learn how to use.  See example below for a simple demo on rendering HTML strings through EJS.
+
+```javascript
+let template = ejs.compile(str, options);
+template(data);
+// => Rendered HTML string
+
+ejs.render(str, data, options);
+// => Rendered HTML string
+
+ejs.renderFile(filename, data, options, function(err, str){
+    // str => Rendered HTML string
+});
+```
+
+Sources:
+
+https://www.youtube.com/watch?v=tJM2wqzPiJk
+
+https://ejs.co/
