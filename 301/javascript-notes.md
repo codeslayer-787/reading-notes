@@ -126,9 +126,9 @@ https://dev.to/healeycodes/refactoring-javascript-for-performance-and-readabilit
 
 ## Call Stack
 
-A call stack keeps track of its place in a script that calls multiple functions.  When a script calls a function, the interpreter adds it to the call stack and then starts carrying out the function.  Functions that are claled by that function are added to the call stack further up and run where their calls are reached.  When the current function is finished, the interpreter takes it off the stack and resumes execution where it left off in the last code listing.  
+A call stack keeps track of its place in a script that calls multiple functions.  When a script calls a function, the interpreter adds it to the call stack and then starts carrying out the function.  Functions that are called by that function are added to the call stack further up and run where their calls are reached.  When the current function is finished, the interpreter takes it off the stack and resumes execution where it left off in the last code listing.  
 
-In Asynchronous JavaScript, we have a callback function, an event loop and a trask queue.  The callback function is acted upon by the call stack during execution after the call back function has been pushed to the stack by the event loop.  For example:
+In Asynchronous JavaScript, we have a callback function, an event loop and a task queue.  The callback function is acted upon by the call stack during execution after the call back function has been pushed to the stack by the event loop.  For example:
 
 ```javascript
 
@@ -172,7 +172,7 @@ There are several types of error messages:
 
   - `var foo= [] foo.length = foo.length -1 // Uncaught RangeError: Invalid array length`
 
-- Type errors occur when the types (numbers, string, etc.) you're tryting to use or access are incompatible.
+- Type errors occur when the types (numbers, string, etc.) you're trying to use or access are incompatible.
 
   - `var foo = {}`
 `foo.bar // undefined`
@@ -188,7 +188,7 @@ https://codeburst.io/javascript-error-messages-debugging-d23f84f0ae7c
 
 ## Embeded JavaScript Templating (EJS)
 
-EJS is a simple templating language that lets you generate HTML markup with plain JavaScript.  EJS features simple syntax through scriptlet tags.  Another advantage of EJS is that it's easy to debut because errors display as JS exeptions.  EJS also caches the intermediate JS functions which makes them faster to execute.  Suppor also seems to be great for EJS as it is constantly improved.  
+EJS is a simple templating language that lets you generate HTML markup with plain JavaScript.  EJS features simple syntax through scriptlet tags.  Another advantage of EJS is that it's easy to debut because errors display as JS exceptions.  EJS also caches the intermediate JS functions which makes them faster to execute.  Support also seems to be great for EJS as it is constantly improved.  
 
 To use in a script tag:
 
@@ -220,3 +220,55 @@ Sources:
 https://www.youtube.com/watch?v=tJM2wqzPiJk
 
 https://ejs.co/
+
+## EJS Partials:
+
+Partials are native to EJS.  Some of the common uses are for reusable items such as nav bars and footers.  The following example adds a partial header and footer to existing html:
+
+```html
+<!-- views/home.ejs -->
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title>Node.js Blog</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            .jumbotron {
+              margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <%- include('partials/navbar') %>
+            <div class="jumbotron">
+                <h1>All about Node</h1>
+                <p class="lead">Check out our articles below!</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="list-group">
+                      <!-- loop over blog posts and render them -->
+                      LIST_OF_POSTS
+                    </div>
+                </div>
+            </div>
+            <%- include('partials/footer') %>
+        </div>
+    </body>
+    </html>
+```
+
+As we can see, we still use the "ice cream cone" punctuation, but with a `-`.  It is important to use the minus sign when using the `include()` statement since we don't want EJS to escape our html characters like `<,>`, etc.  
+
+Sources:
+
+https://medium.com/@henslejoseph/ejs-partials-f6f102cb7433
+
+https://www.youtube.com/watch?v=3_xEEH4fTEk&t=0s&index=7&list=PL7sCSgsRZ-slYARh3YJIqPGZqtGVqZRGt
+
