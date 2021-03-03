@@ -272,3 +272,54 @@ https://medium.com/@henslejoseph/ejs-partials-f6f102cb7433
 
 https://www.youtube.com/watch?v=3_xEEH4fTEk&t=0s&index=7&list=PL7sCSgsRZ-slYARh3YJIqPGZqtGVqZRGt
 
+## Sending Form Data
+
+On the client side, the `<form>` element defines how the data will be sent.  It's most important attributes are `action` and `method`.  The action attribute defines where the data gets sent.  In the following example, the data is sent to an absolute URL vs a to a relative URL below:
+
+```javascript
+//Absolute URL
+
+<form action="https://example.com">
+```
+
+```javascript
+//Relative URL
+<form action="/somewhere_else">
+```
+
+The method attribute defines how data is sent.  The two most common ways data is sent are the `GET` and the `POST` methods.  The GET method is the method used by the browser to ask the server to send back a given resource.  
+
+```javascript
+<form action="http://www.foo.com" method="GET">
+  <div>
+    <label for="say">What greeting do you want to say?</label>
+    <input name="say" id="say" value="Hi">
+  </div>
+  <div>
+    <label for="to">Who do you want to say it to?</label>
+    <input name="to" id="to" value="Mom">
+  </div>
+  <div>
+    <button>Send my greetings</button>
+  </div>
+</form>
+```
+
+The POST method is a little different in that it's the method the browser uses to talk to the server when asking for a response that takes into account the data provided in the body of the HTTP request.  See the following example:
+
+```javascript
+<form action="http://www.foo.com" method="POST">
+  <div>
+    <label for="say">What greeting do you want to say?</label>
+    <input name="say" id="say" value="Hi">
+  </div>
+  <div>
+    <label for="to">Who do you want to say it to?</label>
+    <input name="to" id="to" value="Mom">
+  </div>
+  <div>
+    <button>Send my greetings</button>
+  </div>
+</form>
+```
+
