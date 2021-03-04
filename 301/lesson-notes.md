@@ -111,3 +111,18 @@ Kris gave some tips and ideas for not become "that person".  He also provided ti
 
 - Drink plenty of water.
 
+## Diversity & inclusion in the tech industry:
+
+The first article talks about how less females are coding now than before.  A fun fact is that the first actual computer programmer was Ada Lovelace who invented a computer language that could be interpreted by the first modern computer!  And she did this without a computer...  Why is this trend happening?  There's no clear answer to this problem.  The article points that the number of female computer scientists started declining as computers started to become more widespread.  These personal computers of the past were more like videogame consoles that had word processing and other productivity apps than the do-all machines we have today.  Females don't tend to be as big gamers as males...  Males for the most part grow playing videogames pretty much daily, so when we go to college, we find ourselves somewhat ahead of the curve since we are very familiar with computers. 
+
+The data on the diversity in tech is pretty disturbing as it shows females only accounting for approximately 30% of the industry.  According to the 2017 data, it appears that minorities other than Asian lag very far behind and only account for a fraction of the entire industry.  Diversity matters in most workplaces (in modern America).  We still have a long way to go to be truly integrated, but I think we are at the beginning stages of a truly inclusive world in tech and in many other areas.
+
+Sources:
+
+https://www.npr.org/sections/money/2014/10/21/357629765/when-women-stopped-coding
+
+https://informationisbeautiful.net/visualizations/diversity-in-tech/
+
+https://www.usatoday.com/story/tech/columnist/2015/07/21/why-diversity-matters-your-tech-company/30419871/
+
+
