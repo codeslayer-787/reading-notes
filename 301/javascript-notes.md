@@ -323,3 +323,60 @@ The POST method is a little different in that it's the method the browser uses t
 </form>
 ```
 
+## Database Normalization:
+
+Today's reading was about database normalization.  The worksheet provided gave us some problems to solve.  The author interfaces with the database through Microsoft SQL.  This was interesting as we can see another way of manipulating a database and realize that we can add this to our toolbox eventually.  The first problem presented asked for us to show the student that has the highest GPA.  The solution looks something like this:
+
+```sql
+
+SELECT TOP 1 Person.FirstName + ' ' + Person.LastName AS StudentName,
+COUNT(StudentID) AS CoursesTaken,
+AVG(Grade) AS OverallGPA
+FROM StudentGrade
+INNER JOIN Person ON StudentGrade.StudentID = Person.PersonID
+GROUP BY Person.FirstName + ' ' + Person.LastName
+HAVING COUNT(StudentID) >= 2
+ORDER BY OverallGPA DESC;
+```
+
+This solution has some commands that we haven't really used in class such as `INNER JOIN` and `HAVING`.  The second problem asks us to get the most popular course by creating a cross tab counting the number of courses taken.  The solution looks like the following:
+
+```sql
+SELECT EnrollmentYear,
+Calculus,
+Chemistry,
+Composition,
+Literature,
+Macroeconomics,
+Microeconomics,
+Physics,
+Poetry,
+Quantitative,
+Trigonometry
+FROM
+(
+SELECT YEAR(P.EnrollmentDate) EnrollmentYear,
+SG.EnrollmentID,
+C.Title
+FROM Person P
+INNER JOIN StudentGrade SG ON P.PersonID = SG.StudentID
+INNER JOIN Course C ON SG.CourseID = C.CourseID
+) AS PivotData PIVOT(COUNT(EnrollmentID) FOR Title IN(Calculus,
+Chemistry,
+Composition,
+Literature,
+Macroeconomics,
+Microeconomics,
+Physics,
+Poetry,
+Quantitative,
+Trigonometry)) AS PivotResult
+
+ORDER BY EnrollmentYear;
+```
+
+The example above is a pivot table.  A pivot table is useful for tabulating our data.  We see some of the new (to me at least) commands such as `INNER JOIN`.  Overall, I would like to practice database normalization moving forward as it looks like it can help me organize and display data better.  
+
+Source:
+
+https://www.essentialsql.com/get-ready-to-learn-sql-database-normalization-explained-in-simple-english/
