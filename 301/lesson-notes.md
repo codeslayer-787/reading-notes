@@ -125,4 +125,6 @@ https://informationisbeautiful.net/visualizations/diversity-in-tech/
 
 https://www.usatoday.com/story/tech/columnist/2015/07/21/why-diversity-matters-your-tech-company/30419871/
 
+## Partner Power Hour:
 
+Today's partner power hour was hosted by Chance Harmon who is one of our Code-Fellows TAs.  The subject was Intro to web scraping with Node.js and Puppeteer.  Chance demonstrated how to find and target an element through CSS selectors.  You can grab that targeted data and use it as a developer.  The gathered data could be set up to create a mini-API!  Examples of data scrapers are web search sites such as Google, Bing, and others.  One observation is that you should have permission from the target website before you go on to scrape web content as many websites are designed to block bots.  You could even be sued by some website owners.  Web scraping can be useful to get very specific data from websites that may not appear necessarily in a Google search.  
