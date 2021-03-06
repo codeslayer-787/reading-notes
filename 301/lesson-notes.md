@@ -128,3 +128,37 @@ https://www.usatoday.com/story/tech/columnist/2015/07/21/why-diversity-matters-y
 ## Partner Power Hour:
 
 Today's partner power hour was hosted by Chance Harmon who is one of our Code-Fellows TAs.  The subject was Intro to web scraping with Node.js and Puppeteer.  Chance demonstrated how to find and target an element through CSS selectors.  You can grab that targeted data and use it as a developer.  The gathered data could be set up to create a mini-API!  Examples of data scrapers are web search sites such as Google, Bing, and others.  One observation is that you should have permission from the target website before you go on to scrape web content as many websites are designed to block bots.  You could even be sued by some website owners.  Web scraping can be useful to get very specific data from websites that may not appear necessarily in a Google search.  
+
+## Overcoming Stage Fright:
+
+Public speaking is a scary subject for many of us.  The fear of public speaking may be due to evolutional and cultural aspects.  Becoming good at public speaking is helpful, but may not be enough to deal with the fear itself.  One useful tip the author gives is to not use alcohol or drugs to "make things easier."  We should learn cognitive-behavioral methods to stop the cycle of avoiding fearful situations.  Avoidance may be a relief at the moment, but it's likely to reinforce the fear in the long run.  
+
+#### Some of the tips provided are:
+
+- Shift the focus from yourself and your fear to your true purpose.
+
+- Stop scaring yourself with thoughts about what might go wrong.
+
+- Refuse to think thoughts that create self-doubt.
+
+- Practice ways to calm and relax your mind and body.
+
+- Exercise, eat well, and practice other healthy lifestyle habits.
+
+- Visualize your success!
+
+- Prepare your material in advance and read it aloud to hear your voice.
+
+- Make connections with your audience.
+
+- Stand or sit in a self-assured, confident posture.
+
+- Give up trying to be perfect and know that it's OK to make mistakes.
+
+To up our public speaking game we should use metaphors, similes, and analogies.  These can be used to really bring a thought home for a lot of people as people like stories.  Using 3-part lists is also a good idea because breaking down your message into smaller chunks can help people remember what you are talking about.  Some really proficient public speakers will use rhetorical questions as a way to add dramatic effect or make a point.  We should also learn to use our voices optimally by speaking powerfully.
+
+Sources:
+
+https://www.scienceofpeople.com/public-speaking-tips/
+
+https://adaa.org/understanding-anxiety/social-anxiety-disorder/treatment/conquering-stage-fright
