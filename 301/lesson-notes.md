@@ -162,3 +162,11 @@ Sources:
 https://www.scienceofpeople.com/public-speaking-tips/
 
 https://adaa.org/understanding-anxiety/social-anxiety-disorder/treatment/conquering-stage-fright
+
+## Becoming a Software Engineer:
+
+The host for this event was Jim Frank from Galvanize.  Fortunately, there is quite a high demand for programmers in the United States.  While a Computer Science degree could help in attaining a job, it is not required.  The host mentioned that to begin our careers, we should definitely know JavaScript first as it is the most used language (followed by Python.)  
+
+Jim presented us with a salary breakdown per State and what industries are hiring the most software developers.  To enter the tech industry, we must be able view ourselves as an "entrepreneur of one". We are the product that we sell!  Jim also mentioned how coding bootcamps are supposed to feel frightening.  This is due to pushing us to learn quickly, but also because computer programming is pretty much a time sensitive career.  Work environments can be fast paced and we must be prepared for it.
+
+We also learned how we shouldn't worry too much about the requirements posted in job openings.  Usually, this could be true until the right candidate comes along.  We should join the tech community through social media and in person meetups whenever possible.  Our goal should be to become a "Full Stack Developer".  
