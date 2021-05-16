@@ -31,6 +31,8 @@ Alain de Botton starts his talk by painting the picture of how our society tends
 
 The podcast from Drs. Sarah really depicted how I feel sometimes.  I've suffered from imposter syndrome in key points in my life (especially while learning to code).  I believe that the tech sector has the "perception innate of brilliance" which amplifies the imposter syndrome.  We tend to perceive that the field is full of brilliant people who effortlessly get it.  When we feel like we have to really put effort in our learning, imposter syndrome tends to set in.  This syndrome is an obstacle to success and it might even make us quit.  The hosts went on to poke fun of themselves in real world situations when they felt like impostors.  
 
+We can treat our own imposter syndrome by identifying the negative thoughts as what they are.  We can breathe and meditate while acknowledging that these thoughts are only our perception of our current reality rather than reality itself. Free writing is another technique depicted by Drs. Sarah.  Writing down positive reaffirmations can be healing and it serves to remind us who we are and the fact that struggle is temporary.  Overall, I could identify similar situations in my own life.  
+
 https://web.archive.org/web/20160616225417/http://www.happybearsoftware.com/upgrade-your-technical-skills-with-deliberate-practice
 
 https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve/up-next?language=en
