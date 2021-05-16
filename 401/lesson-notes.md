@@ -33,6 +33,8 @@ The podcast from Drs. Sarah really depicted how I feel sometimes.  I've suffered
 
 We can treat our own imposter syndrome by identifying the negative thoughts as what they are.  We can breathe and meditate while acknowledging that these thoughts are only our perception of our current reality rather than reality itself. Free writing is another technique depicted by Drs. Sarah.  Writing down positive reaffirmations can be healing and it serves to remind us who we are and the fact that struggle is temporary.  Overall, I could identify similar situations in my own life.  
 
+Sources:
+
 https://web.archive.org/web/20160616225417/http://www.happybearsoftware.com/upgrade-your-technical-skills-with-deliberate-practice
 
 https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve/up-next?language=en
@@ -40,3 +42,5 @@ https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improv
 https://www.ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance/up-next
 
 https://www.ted.com/talks/alain_de_botton_a_kinder_gentler_philosophy_of_success/up-next
+
+https://soundcloud.com/drssarahcare/self-care-with-drs-sarah-impostor-syndrome-part-i
