@@ -18,3 +18,23 @@ The manual pages are a set of pages that explain every command available in your
 
 You can create and modify files and their names using the command line.  Some common modifications you can make are `mkdir` to create a new folder, `touch` to create a new file.  When using `touch` you need to specify the file extension it is.  You can remove folders as well using `rmdir` or copy them using `cp`.
 
+## Growth Mindset:
+
+The first article titled "Upgrade your technical skills with deliberate practice".  This article points to the fact that we can do something for a long time and not get any better as far as skills are concerned.  We as programmers need to push ourselves through solving difficult problems and seek challenges to hone our skills.  We should practice deliberately rather than stick to what we know.  The article gives an example about the best pianists drilling through the most difficult parts of their music rather than just playing.  In short, we should go beyond our comfort zone!
+
+
+The TED Talk from Carol Dweck was incredibly powerful!  I, myself suffer from taking tests as a challenge to my intelligence instead of opportunities to develop my skills further.  I believe that many of us are taught the fixed mindset Carol speaks about in her presentation.  Instead, we should develop a growth mindset and fully engage in the learning process.  I personally love the strategy of replacing failing grades with "not-yet" even thought it might not be practical for every course or every school.  Instead, we can modify our self talk to process academic shortcomings as opportunities to improve instead of failure.
+
+The TED Talk on "Grit" from Angela Lee Duckworth was amazing as well.  I guess I consider it a spin-off from Dr. Dweck's growth mindset theory.  We as humans have several types of intelligence that may or may not be measured in our current school system.  IQ is a good indicator or someone's intelligence level, but it is definitely the only one.  I strongly believe that IQ alone is far from an indicator of success.  Grit may be more closely related to real-life intelligence than IQ.  Grit has to do with our ability to stand back up when we get knocked down (academically and in the real-world).  
+
+Alain de Botton starts his talk by painting the picture of how our society tends to see success and failure.  This TED Talk was very enlightening as I believe this is very applicable to our situation in Code-Fellows.  We will not get every subject by heart and we might even fail at some tasks.  We need to be kind to ourselves as we cannot possibly be successful at everything.  I want to become good at identifying at my own ideas of success and how to become kinder to myself when I don't achieve something the first time.  
+
+The podcast from Drs. Sarah really depicted how I feel sometimes.  I've suffered from imposter syndrome in key points in my life (especially while learning to code).  I believe that the tech sector has the "perception innate of brilliance" which amplifies the imposter syndrome.  We tend to perceive that the field is full of brilliant people who effortlessly get it.  When we feel like we have to really put effort in our learning, imposter syndrome tends to set in.  This syndrome is an obstacle to success and it might even make us quit.  The hosts went on to poke fun of themselves in real world situations when they felt like impostors.  
+
+https://web.archive.org/web/20160616225417/http://www.happybearsoftware.com/upgrade-your-technical-skills-with-deliberate-practice
+
+https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve/up-next?language=en
+
+https://www.ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance/up-next
+
+https://www.ted.com/talks/alain_de_botton_a_kinder_gentler_philosophy_of_success/up-next
