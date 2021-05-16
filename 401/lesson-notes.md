@@ -44,3 +44,17 @@ https://www.ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_per
 https://www.ted.com/talks/alain_de_botton_a_kinder_gentler_philosophy_of_success/up-next
 
 https://soundcloud.com/drssarahcare/self-care-with-drs-sarah-impostor-syndrome-part-i
+
+### Pain vs Suffering:
+
+Pain is needed for us to grow!  This article mentions how the next 10 weeks will be painful (that part is not exciting) as it will push us mentally, physically, and even emotionally.  We grow through pain and the lack of it could even mean we are stagnant.  Suffering on the other hand is pain without a higher goal.  Sometimes we experience pain, but we mistake it as suffering.  I've been previously guilty of this and I really hope my mindset stay focused throughout this course.  
+
+### A beginner's guide to Big O:
+
+Big O notation is used in Computer Science to describe the performance or complexity of an algorithm.  While I don't fully understand the Big O notation, I believe it is the worst case scenario when dealing with memory use.  We can use it to evaluate different data structures and make better programming decisions with it.  The data structures we chose actually matter when it comes to performance!
+
+Sources:
+
+https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation
+
+https://www.codenewbie.org/basecs/8
