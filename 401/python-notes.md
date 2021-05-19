@@ -40,3 +40,74 @@ print("The factorial of", num, "is", factorial(num))
 **Advantages:**  Recursive functions make code look clean and elegant.  Also, you can use recursion to break down complex problems.  Sequence generation is easier with recursion than using some nested iteration.
 
 **Disadvantages:**  The logic behind recursion can be hard to follow through.  Recursive calls are expensive as they take up a lot of memory and time.  Recursive functions are hard to debug.
+
+## FileIO & Exceptions:
+
+Files on most modern file systems are composed of three main parts:
+
+* Header: metadata about the contents of the file (file name, size, type, etc.)
+* Data: contents of the file as written by the creator or editor
+* End of file (EOF): special character that indicates the end of the file
+
+A file path is required when accessing a file on an operating system.  It's composed of three major parts:
+
+* Folder Path: the file folder location on the file system where subsequent folders are separated by a forward slash or backslash
+* File name: the actual name of the file
+* Extension: the end of the file path pre-pended with a period to indicate the file type.
+
+Some of the syntax for opening, editing, and closing files in Python:
+
+* To open a file: `file = open('dog_breeds.txt')` 
+* To close the same file `reader.close()`
+
+A buffered binary file type is used for reading and writing binary files.  
+
+```python
+open('abc.txt', 'rb')
+
+open('abc.txt', 'wb')
+```
+A raw file type is generally used as low-level building block for binary text streams.  To open them in Python you can use `open('abc.txt', 'rb', buffering=0)`  There are multiple methods to be called on files:
+
+* `.read(size=1)` This reads from the file based on the number of size bites.
+
+* `.readline(size=1)` This reads at most size number of characters from the line.  This continues to the end of the line then wraps back around.
+
+* `.readlines()` This reads the remaining lines from the file object and returns them as a list.
+
+### Python exeptions:
+
+Python programs terminate as soon as they encounter an errorl.  In Python, an error could be a syntax error of an exeption.  A syntax error looks like `SyntaxError: invalid syntax` while an exeption could be a zero division error such as `SyntaxError: invalid syntax`.  
+
+We can raise an exeption using `raise` if a condition occurs.  An example could be:
+
+```python
+x = 10
+if x > 5:
+    raise Exception('x should not exceed 5. The value of x was: {}'.format(x))
+```
+
+Like in other languages, Python has a version of the try and except block.  Python executes code following the try statement as normal part of the program.  The code that follows the except statement is the program's response to any exceptions in the preceding try clause.
+
+```python
+def linux_interaction():
+    assert ('linux' in sys.platform), "Function can only run on Linux systems."
+    print('Doing something.')
+```
+The block above asserts that the operating system should be ran on Linux.  We can use try and except to just to pass that function without crashing.
+
+```python
+try:
+    linux_interaction()
+except:
+    pass
+```
+Instead of just passing a blank screen, you could add a message to the user.
+
+```python
+try:
+    linux_interaction()
+except:
+    print('Linux function was not executed')
+```
+Once an error occurs, the except block wakes up and prints a message for the user.  
