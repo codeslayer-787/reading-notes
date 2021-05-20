@@ -111,3 +111,130 @@ except:
     print('Linux function was not executed')
 ```
 Once an error occurs, the except block wakes up and prints a message for the user.  
+
+## Classes and Objects
+
+Objects are an encapsulation of variables and functions into a single entity.  Objects get their variables and functions from classes.  
+
+Syntax: 
+```python
+class MyClass:
+    variable = "blah"
+    def function(self):
+        print("This is a message inside the class.")
+
+myobjectx = MyClass()
+
+print(myobjectx.variable)
+
+```
+
+You can create multiple objects that are of the same class.  However, each object contains independent copies of the variables defined in their class.  
+
+```python
+class MyClass:
+    variable = "blah"
+
+    def function(self):
+        print("This is a message inside the class.")
+myobjectx = MyClass()
+myobjecty = MyClass()
+
+myobjecty.variable = "yackity"
+
+# Then print out both values
+print(myobjectx.variable)
+print(myobjecty.variable)
+
+```
+
+To access a function inside of an object, you use notation similar to accessing a variable.
+
+```python
+class MyClass:
+    variable = "blah"
+
+    def function(self):
+        print("This is a message inside the class.")
+
+myobjectx = MyClass()
+
+myobjectx.function()
+```
+The example above will print "This is a message inside the class" through the variable below.  You can create multiple objects from that same class that have their own set of values.  In this case, myobjectx becomes its own thing and we access the function we want from it by using the dot notation.  
+
+## Thinking recursively in Python:
+
+One of the main ideas of recursion is that we can break a problem into manageable pieces.  In the Santa and the elves example, we are presented with an iterative version of Santa delivering gifts.  
+
+```python
+houses = ["Eric's house", "Kenny's house", "Kyle's house", "Stan's house"]
+def deliver_presents_iteratively():
+    for house in houses:
+        print("Delivering presents to", house)
+```
+
+This is one way to get the job done, but recursion allows us to break down the work (and therefore raising efficiency) into smaller pieces:
+
+```python
+houses = ["Eric's house", "Kenny's house", "Kyle's house", "Stan's house"]
+
+# Each function call represents an elf doing his work 
+def deliver_presents_recursively(houses):
+    # Worker elf doing his work
+    if len(houses) == 1:
+        house = houses[0]
+        print("Delivering presents to", house)
+
+    # Manager elf doing his work
+    else:
+        mid = len(houses) // 2
+        first_half = houses[:mid]
+        second_half = houses[mid:]
+
+        # Divides his work among two elves
+        deliver_presents_recursively(first_half)
+        deliver_presents_recursively(second_half)
+```
+
+A recursive function is a function defined in terms of itself via self-referential expressions.  The large problem is broken down into successively less complex ones, those sub-problems must eventually become so simple that they can be solved without further subdivision.  When dealing with recursive functions, keep in mind that each recursive call has its own execution context.  You can maintain state by threading the state through each recursive call so that the current state is part of the current call's execution context and keeping the state in global scope.  Below is an example of threading:
+
+```python
+# Global mutable state
+current_number = 1
+accumulated_sum = 0
+
+
+def sum_recursive():
+    global current_number
+    global accumulated_sum
+    # Base case
+    if current_number == 11:
+        return accumulated_sum
+    # Recursive case
+    else:
+        accumulated_sum = accumulated_sum + current_number
+        current_number = current_number + 1
+        return sum_recursive()
+```
+A data structure is recursive if it can be defined in terms of a smaller version of itself.  A list as we know by now is a type of recursive data structure.  Naive recursion indicates that we can write recursive functions that recompute values unnecessarily.  A more correct way for us to make the same function would've been:
+
+```python
+from functools import lru_cache
+
+@lru_cache(maxsize=None)
+def fibonacci_recursive(n):
+    print("Calculating F", "(", n, ")", sep="", end=", ")
+
+    # Base case
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+
+    # Recursive case
+    else:
+        return fibonacci_recursive(n-1) + fibonacci_recursive(n-2)
+```
+
+In the case above, lru_cache is used as a decorator that catches the results.  We avoid recomputation by explicitly checking for the value before trying to compute it.  
